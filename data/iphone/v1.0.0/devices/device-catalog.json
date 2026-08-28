@@ -1,0 +1,4832 @@
+{
+  "version": "1.0.0",
+  "devices": [
+    {
+      "id": "iphone-17e",
+      "marketingName": "iPhone 17e",
+      "family": "iPhone 17",
+      "segment": "e",
+      "introducedYear": 2026,
+      "storageGB": [
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "soft-pink"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "Soft Pink"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.8
+      },
+      "weightGrams": 169,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield 2",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A19",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Fusion camera system",
+        "physicalCameraCount": 1,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48,
+            "equivalentMm": 26,
+            "aperture": 1.6,
+            "stabilization": "optical image stabilization"
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "equivalentMm": 52,
+            "aperture": 1.6,
+            "physicalLens": false
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": null,
+        "opticalZoomRange": 2,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 26,
+        "streamedVideoPlaybackHours": 21,
+        "audioPlaybackHours": null
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 1,
+        "rearCameraLayout": "single camera",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17e"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "marketingName": "iPhone 17 Pro Max",
+      "family": "iPhone 17",
+      "segment": "pro_max",
+      "introducedYear": 2025,
+      "storageGB": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "finishIds": [
+        "silver",
+        "cosmic-orange",
+        "deep-blue"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Cosmic Orange",
+        "Deep Blue"
+      ],
+      "dimensionsMm": {
+        "width": 78.0,
+        "height": 163.4,
+        "depth": 8.75
+      },
+      "weightGrams": 233,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield 2",
+        "backMaterial": "Ceramic Shield",
+        "design": "aluminum unibody design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.9,
+        "resolutionPixels": {
+          "width": 2868,
+          "height": 1320
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 3000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A19 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Pro Fusion camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 48
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 48
+          }
+        ],
+        "opticalQualityZoomMaximum": 8,
+        "digitalZoomMaximum": 40,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "Center Stage front camera",
+        "megapixels": 18,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": true
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 39,
+        "streamedVideoPlaybackHours": 35,
+        "audioPlaybackHours": null
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 25,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": true,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras on extended camera plateau",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-17-pro",
+      "marketingName": "iPhone 17 Pro",
+      "family": "iPhone 17",
+      "segment": "pro",
+      "introducedYear": 2025,
+      "storageGB": [
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "silver",
+        "cosmic-orange",
+        "deep-blue"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Cosmic Orange",
+        "Deep Blue"
+      ],
+      "dimensionsMm": {
+        "width": 71.9,
+        "height": 150.0,
+        "depth": 8.75
+      },
+      "weightGrams": 206,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield 2",
+        "backMaterial": "Ceramic Shield",
+        "design": "aluminum unibody design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.3,
+        "resolutionPixels": {
+          "width": 2622,
+          "height": 1206
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 3000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A19 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Pro Fusion camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 48
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 48
+          }
+        ],
+        "opticalQualityZoomMaximum": 8,
+        "digitalZoomMaximum": 40,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "Center Stage front camera",
+        "megapixels": 18,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": true
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 33,
+        "streamedVideoPlaybackHours": 30,
+        "audioPlaybackHours": null
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 25,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": true,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras on extended camera plateau",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-17",
+      "marketingName": "iPhone 17",
+      "family": "iPhone 17",
+      "segment": "base",
+      "introducedYear": 2025,
+      "storageGB": [
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "mist-blue",
+        "sage",
+        "lavender"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "Mist Blue",
+        "Sage",
+        "Lavender"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 149.6,
+        "depth": 7.95
+      },
+      "weightGrams": 177,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield 2",
+        "backMaterial": "glass",
+        "backFinish": "color-infused on specified finishes",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.3,
+        "resolutionPixels": {
+          "width": 2622,
+          "height": 1206
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 3000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A19",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Dual Fusion camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48,
+            "equivalentMm": 26,
+            "aperture": 1.6
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "equivalentMm": 52,
+            "physicalLens": false
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 48,
+            "equivalentMm": 13,
+            "aperture": 2.2,
+            "fieldOfViewDegrees": 120
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "opticalZoomRange": 4,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": true,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "Center Stage front camera",
+        "megapixels": 18,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": true
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 30,
+        "streamedVideoPlaybackHours": 27,
+        "audioPlaybackHours": null
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 25,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": true,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two vertically aligned cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-air",
+      "marketingName": "iPhone Air",
+      "family": "iPhone Air",
+      "segment": "air",
+      "introducedYear": 2025,
+      "storageGB": [
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "space-black",
+        "cloud-white",
+        "light-gold",
+        "sky-blue"
+      ],
+      "officialFinishNames": [
+        "Space Black",
+        "Cloud White",
+        "Light Gold",
+        "Sky Blue"
+      ],
+      "dimensionsMm": {
+        "width": 74.7,
+        "height": 156.2,
+        "depth": 5.64
+      },
+      "weightGrams": 165,
+      "construction": {
+        "frameMaterial": "titanium",
+        "frontMaterial": "Ceramic Shield 2",
+        "backMaterial": "Ceramic Shield",
+        "design": "titanium design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.5,
+        "resolutionPixels": {
+          "width": 2736,
+          "height": 1260
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 3000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A19 Pro",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Fusion camera system",
+        "physicalCameraCount": 1,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48,
+            "equivalentMm": 26,
+            "aperture": 1.6
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "equivalentMm": 52,
+            "physicalLens": false
+          }
+        ],
+        "opticalZoomIn": 2,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "Center Stage front camera",
+        "megapixels": 18,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": true
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 27,
+        "streamedVideoPlaybackHours": 22,
+        "audioPlaybackHours": null
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 20,
+        "qi2MaximumWatts": 20,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": true,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 1,
+        "rearCameraLayout": "single camera on extended camera plateau",
+        "simTraySideWhenPresent": null,
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-16e",
+      "marketingName": "iPhone 16e",
+      "family": "iPhone 16",
+      "segment": "e",
+      "introducedYear": 2025,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "white"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.8
+      },
+      "weightGrams": 167,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A18",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "48MP Fusion camera system",
+        "physicalCameraCount": 1,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48,
+            "equivalentMm": 26,
+            "aperture": 1.6
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "equivalentMm": 52,
+            "physicalLens": false
+          }
+        ],
+        "opticalZoomIn": 2,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 26,
+        "streamedVideoPlaybackHours": 21,
+        "audioPlaybackHours": 90
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": null,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": false,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 1,
+        "rearCameraLayout": "single camera",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16e"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "marketingName": "iPhone 16 Pro Max",
+      "family": "iPhone 16",
+      "segment": "pro_max",
+      "introducedYear": 2024,
+      "storageGB": [
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "black-titanium",
+        "white-titanium",
+        "natural-titanium",
+        "desert-titanium"
+      ],
+      "officialFinishNames": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "dimensionsMm": {
+        "width": 77.6,
+        "height": 163.0,
+        "depth": 8.25
+      },
+      "weightGrams": 227,
+      "construction": {
+        "frameMaterial": "titanium",
+        "frontMaterial": "Ceramic Shield latest generation",
+        "backMaterial": "textured matte glass",
+        "design": "titanium design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.9,
+        "resolutionPixels": {
+          "width": 2868,
+          "height": 1320
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A18 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "fusion_main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 48
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 5
+          }
+        ],
+        "opticalZoomIn": 5,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 25,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 33,
+        "streamedVideoPlaybackHours": 29,
+        "audioPlaybackHours": 105
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-16-pro",
+      "marketingName": "iPhone 16 Pro",
+      "family": "iPhone 16",
+      "segment": "pro",
+      "introducedYear": 2024,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "black-titanium",
+        "white-titanium",
+        "natural-titanium",
+        "desert-titanium"
+      ],
+      "officialFinishNames": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 149.6,
+        "depth": 8.25
+      },
+      "weightGrams": 199,
+      "construction": {
+        "frameMaterial": "titanium",
+        "frontMaterial": "Ceramic Shield latest generation",
+        "backMaterial": "textured matte glass",
+        "design": "titanium design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.3,
+        "resolutionPixels": {
+          "width": 2622,
+          "height": 1206
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A18 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "fusion_main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 48
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 5
+          }
+        ],
+        "opticalZoomIn": 5,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 25,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 27,
+        "streamedVideoPlaybackHours": 22,
+        "audioPlaybackHours": 85
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-16-plus",
+      "marketingName": "iPhone 16 Plus",
+      "family": "iPhone 16",
+      "segment": "plus",
+      "introducedYear": 2024,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "pink",
+        "teal",
+        "ultramarine"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "Pink",
+        "Teal",
+        "Ultramarine"
+      ],
+      "dimensionsMm": {
+        "width": 77.8,
+        "height": 160.9,
+        "depth": 7.8
+      },
+      "weightGrams": 199,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield latest generation",
+        "backMaterial": "color-infused glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2796,
+          "height": 1290
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A18",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Advanced dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "fusion_main",
+            "megapixels": 48
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "physicalLens": false
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "opticalZoomRange": 4,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": true,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 27,
+        "streamedVideoPlaybackHours": 24,
+        "audioPlaybackHours": 100
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two vertically aligned cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-plus"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-16",
+      "marketingName": "iPhone 16",
+      "family": "iPhone 16",
+      "segment": "base",
+      "introducedYear": 2024,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "pink",
+        "teal",
+        "ultramarine"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "Pink",
+        "Teal",
+        "Ultramarine"
+      ],
+      "dimensionsMm": {
+        "width": 71.6,
+        "height": 147.6,
+        "depth": 7.8
+      },
+      "weightGrams": 170,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield latest generation",
+        "backMaterial": "color-infused glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2556,
+          "height": 1179
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A18",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Advanced dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "fusion_main",
+            "megapixels": 48
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "physicalLens": false
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "opticalZoomRange": 4,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": true,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 22,
+        "streamedVideoPlaybackHours": 18,
+        "audioPlaybackHours": 80
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 25,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": true,
+        "cameraControl": true,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two vertically aligned cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "marketingName": "iPhone 15 Pro Max",
+      "family": "iPhone 15",
+      "segment": "pro_max",
+      "introducedYear": 2023,
+      "storageGB": [
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "black-titanium",
+        "white-titanium",
+        "blue-titanium",
+        "natural-titanium"
+      ],
+      "officialFinishNames": [
+        "Black Titanium",
+        "White Titanium",
+        "Blue Titanium",
+        "Natural Titanium"
+      ],
+      "dimensionsMm": {
+        "width": 76.7,
+        "height": 159.9,
+        "depth": 8.25
+      },
+      "weightGrams": 221,
+      "construction": {
+        "frameMaterial": "titanium",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "titanium design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2796,
+          "height": 1290
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A17 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 5
+          }
+        ],
+        "opticalZoomIn": 5,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 25,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 29,
+        "streamedVideoPlaybackHours": 25,
+        "audioPlaybackHours": 95
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-15-pro",
+      "marketingName": "iPhone 15 Pro",
+      "family": "iPhone 15",
+      "segment": "pro",
+      "introducedYear": 2023,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "black-titanium",
+        "white-titanium",
+        "blue-titanium",
+        "natural-titanium"
+      ],
+      "officialFinishNames": [
+        "Black Titanium",
+        "White Titanium",
+        "Blue Titanium",
+        "Natural Titanium"
+      ],
+      "dimensionsMm": {
+        "width": 70.6,
+        "height": 146.6,
+        "depth": 8.25
+      },
+      "weightGrams": 187,
+      "construction": {
+        "frameMaterial": "titanium",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "titanium design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2556,
+          "height": 1179
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A17 Pro",
+        "cpuCores": 6,
+        "gpuCores": 6,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 3
+          }
+        ],
+        "opticalZoomIn": 3,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 15,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 23,
+        "streamedVideoPlaybackHours": 20,
+        "audioPlaybackHours": 75
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 3",
+        "maximumDataRateMbps": 10000
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": true,
+        "cameraControl": false,
+        "ringSilentSwitch": false,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": true,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": true,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-15-plus",
+      "marketingName": "iPhone 15 Plus",
+      "family": "iPhone 15",
+      "segment": "plus",
+      "introducedYear": 2023,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "blue",
+        "green",
+        "yellow",
+        "pink"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Pink"
+      ],
+      "dimensionsMm": {
+        "width": 77.8,
+        "height": 160.9,
+        "depth": 7.8
+      },
+      "weightGrams": 201,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "color-infused glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2796,
+          "height": 1290
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A16 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Advanced dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "physicalLens": false
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "opticalZoomRange": 4,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 26,
+        "streamedVideoPlaybackHours": 20,
+        "audioPlaybackHours": 100
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-plus"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-15",
+      "marketingName": "iPhone 15",
+      "family": "iPhone 15",
+      "segment": "base",
+      "introducedYear": 2023,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "black",
+        "blue",
+        "green",
+        "yellow",
+        "pink"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Pink"
+      ],
+      "dimensionsMm": {
+        "width": 71.6,
+        "height": 147.6,
+        "depth": 7.8
+      },
+      "weightGrams": 171,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "color-infused glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2556,
+          "height": 1179
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A16 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Advanced dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "optical-quality 2x crop",
+            "megapixels": 12,
+            "physicalLens": false
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "opticalZoomRange": 4,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 20,
+        "streamedVideoPlaybackHours": 16,
+        "audioPlaybackHours": 80
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "USB-C",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": 15,
+        "qiMaximumWatts": null,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": true,
+        "lightning": false,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": true,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": true
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "marketingName": "iPhone 14 Pro Max",
+      "family": "iPhone 14",
+      "segment": "pro_max",
+      "introducedYear": 2022,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "silver",
+        "gold",
+        "space-black",
+        "deep-purple"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Gold",
+        "Space Black",
+        "Deep Purple"
+      ],
+      "dimensionsMm": {
+        "width": 77.6,
+        "height": 160.7,
+        "depth": 7.85
+      },
+      "weightGrams": 240,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2796,
+          "height": 1290
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A16 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 3
+          }
+        ],
+        "opticalZoomIn": 3,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 15,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 29,
+        "streamedVideoPlaybackHours": 25,
+        "audioPlaybackHours": 95
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-14-pro",
+      "marketingName": "iPhone 14 Pro",
+      "family": "iPhone 14",
+      "segment": "pro",
+      "introducedYear": 2022,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "silver",
+        "gold",
+        "space-black",
+        "deep-purple"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Gold",
+        "Space Black",
+        "Deep Purple"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 147.5,
+        "depth": 7.85
+      },
+      "weightGrams": 206,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2556,
+          "height": 1179
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": true,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1600,
+          "outdoorPeak": 2000,
+          "minimum": 1
+        }
+      },
+      "chip": {
+        "name": "A16 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 48
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 3
+          }
+        ],
+        "opticalZoomIn": 3,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 15,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 23,
+        "streamedVideoPlaybackHours": 20,
+        "audioPlaybackHours": 75
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": true,
+        "proMotion": true,
+        "alwaysOnDisplay": true,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": true,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": true,
+        "displayCutout": "dynamic_island"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-14-plus",
+      "marketingName": "iPhone 14 Plus",
+      "family": "iPhone 14",
+      "segment": "plus",
+      "introducedYear": 2022,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "midnight",
+        "starlight",
+        "product-red",
+        "blue",
+        "purple",
+        "yellow"
+      ],
+      "officialFinishNames": [
+        "Midnight",
+        "Starlight",
+        "(PRODUCT)RED",
+        "Blue",
+        "Purple",
+        "Yellow"
+      ],
+      "dimensionsMm": {
+        "width": 78.1,
+        "height": 160.8,
+        "depth": 7.8
+      },
+      "weightGrams": 203,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2778,
+          "height": 1284
+        },
+        "pixelsPerInch": 458,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 12,
+            "aperture": 1.5
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 26,
+        "streamedVideoPlaybackHours": 20,
+        "audioPlaybackHours": 100
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-14",
+      "marketingName": "iPhone 14",
+      "family": "iPhone 14",
+      "segment": "base",
+      "introducedYear": 2022,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "midnight",
+        "starlight",
+        "product-red",
+        "blue",
+        "purple",
+        "yellow"
+      ],
+      "officialFinishNames": [
+        "Midnight",
+        "Starlight",
+        "(PRODUCT)RED",
+        "Blue",
+        "Purple",
+        "Yellow"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.8
+      },
+      "weightGrams": 172,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "main",
+            "megapixels": 12,
+            "aperture": 1.5
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 1.9,
+        "autofocus": true,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 20,
+        "streamedVideoPlaybackHours": 16,
+        "audioPlaybackHours": 80
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": true,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-se-3",
+      "marketingName": "iPhone SE (3rd generation)",
+      "family": "iPhone SE",
+      "segment": "se",
+      "introducedYear": 2022,
+      "storageGB": [
+        64,
+        128,
+        256
+      ],
+      "finishIds": [
+        "product-red",
+        "starlight",
+        "midnight"
+      ],
+      "officialFinishNames": [
+        "(PRODUCT)RED",
+        "Starlight",
+        "Midnight"
+      ],
+      "dimensionsMm": {
+        "width": 67.3,
+        "height": 138.4,
+        "depth": 7.3
+      },
+      "weightGrams": 144,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "glass",
+        "backMaterial": "glass",
+        "design": "aluminum and glass design"
+      },
+      "display": {
+        "marketingName": "Retina HD display",
+        "technology": "LCD IPS",
+        "diagonalInches": 4.7,
+        "resolutionPixels": {
+          "width": 1334,
+          "height": 750
+        },
+        "pixelsPerInch": 326,
+        "hdr": false,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 625,
+          "hdrPeak": null,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Single-camera system",
+        "physicalCameraCount": 1,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.8
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": null,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "FaceTime HD camera",
+        "megapixels": 7,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 15,
+        "streamedVideoPlaybackHours": 10,
+        "audioPlaybackHours": 50
+      },
+      "biometrics": "touch_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": true,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": null,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP67",
+        "maximumDepthMeters": 1,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": false,
+        "touchId": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": true,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": false,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": false,
+        "partsHistoryBatteryOnly": true,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 1,
+        "rearCameraLayout": "single camera",
+        "simTraySideWhenPresent": "right",
+        "homeButton": true,
+        "dynamicIsland": false,
+        "displayCutout": "home_button_bezels"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "marketingName": "iPhone 13 Pro Max",
+      "family": "iPhone 13",
+      "segment": "pro_max",
+      "introducedYear": 2021,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "graphite",
+        "gold",
+        "silver",
+        "sierra-blue",
+        "alpine-green"
+      ],
+      "officialFinishNames": [
+        "Graphite",
+        "Gold",
+        "Silver",
+        "Sierra Blue",
+        "Alpine Green"
+      ],
+      "dimensionsMm": {
+        "width": 78.1,
+        "height": 160.8,
+        "depth": 7.65
+      },
+      "weightGrams": 240,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2778,
+          "height": 1284
+        },
+        "pixelsPerInch": 458,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.5
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 1.8
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "aperture": 2.8,
+            "opticalMagnification": 3
+          }
+        ],
+        "opticalZoomIn": 3,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 15,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 28,
+        "streamedVideoPlaybackHours": 25,
+        "audioPlaybackHours": 95
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": true,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-13-pro",
+      "marketingName": "iPhone 13 Pro",
+      "family": "iPhone 13",
+      "segment": "pro",
+      "introducedYear": 2021,
+      "storageGB": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "finishIds": [
+        "graphite",
+        "gold",
+        "silver",
+        "sierra-blue",
+        "alpine-green"
+      ],
+      "officialFinishNames": [
+        "Graphite",
+        "Gold",
+        "Silver",
+        "Sierra Blue",
+        "Alpine Green"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.65
+      },
+      "weightGrams": 204,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": true,
+        "maximumAdaptiveRefreshRateHz": 120,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 1000,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 5,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.5
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 1.8
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "aperture": 2.8,
+            "opticalMagnification": 3
+          }
+        ],
+        "opticalZoomIn": 3,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 15,
+        "macroPhotography": true,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 22,
+        "streamedVideoPlaybackHours": 20,
+        "audioPlaybackHours": 75
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": true,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": true,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-13",
+      "marketingName": "iPhone 13",
+      "family": "iPhone 13",
+      "segment": "base",
+      "introducedYear": 2021,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "product-red",
+        "starlight",
+        "midnight",
+        "blue",
+        "pink",
+        "green"
+      ],
+      "officialFinishNames": [
+        "(PRODUCT)RED",
+        "Starlight",
+        "Midnight",
+        "Blue",
+        "Pink",
+        "Green"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.65
+      },
+      "weightGrams": 174,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 19,
+        "streamedVideoPlaybackHours": 15,
+        "audioPlaybackHours": 75
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-13-mini",
+      "marketingName": "iPhone 13 mini",
+      "family": "iPhone 13",
+      "segment": "mini",
+      "introducedYear": 2021,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "product-red",
+        "starlight",
+        "midnight",
+        "blue",
+        "pink",
+        "green"
+      ],
+      "officialFinishNames": [
+        "(PRODUCT)RED",
+        "Starlight",
+        "Midnight",
+        "Blue",
+        "Pink",
+        "Green"
+      ],
+      "dimensionsMm": {
+        "width": 64.2,
+        "height": 131.5,
+        "depth": 7.65
+      },
+      "weightGrams": 141,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 5.4,
+        "resolutionPixels": {
+          "width": 2340,
+          "height": 1080
+        },
+        "pixelsPerInch": 476,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A15 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 17,
+        "streamedVideoPlaybackHours": 13,
+        "audioPlaybackHours": 55
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two diagonally arranged cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-12-pro-max",
+      "marketingName": "iPhone 12 Pro Max",
+      "family": "iPhone 12",
+      "segment": "pro_max",
+      "introducedYear": 2020,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "silver",
+        "graphite",
+        "gold",
+        "pacific-blue"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Graphite",
+        "Gold",
+        "Pacific Blue"
+      ],
+      "dimensionsMm": {
+        "width": 78.1,
+        "height": 160.8,
+        "depth": 7.4
+      },
+      "weightGrams": 228,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.7,
+        "resolutionPixels": {
+          "width": 2778,
+          "height": 1284
+        },
+        "pixelsPerInch": 458,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A14 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 2.5
+          }
+        ],
+        "opticalZoomIn": 2.5,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 12,
+        "macroPhotography": false,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 20,
+        "streamedVideoPlaybackHours": 12,
+        "audioPlaybackHours": 80
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro-max"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-12-pro",
+      "marketingName": "iPhone 12 Pro",
+      "family": "iPhone 12",
+      "segment": "pro",
+      "introducedYear": 2020,
+      "storageGB": [
+        128,
+        256,
+        512
+      ],
+      "finishIds": [
+        "silver",
+        "graphite",
+        "gold",
+        "pacific-blue"
+      ],
+      "officialFinishNames": [
+        "Silver",
+        "Graphite",
+        "Gold",
+        "Pacific Blue"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.4
+      },
+      "weightGrams": 189,
+      "construction": {
+        "frameMaterial": "stainless steel",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "textured matte glass",
+        "design": "stainless steel design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 800,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A14 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Pro camera system",
+        "physicalCameraCount": 3,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          },
+          {
+            "role": "telephoto",
+            "megapixels": 12,
+            "opticalMagnification": 2
+          }
+        ],
+        "opticalZoomIn": 2,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 10,
+        "macroPhotography": false,
+        "liDAR": true
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 17,
+        "streamedVideoPlaybackHours": 11,
+        "audioPlaybackHours": 65
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": true,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": true,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 3,
+        "rearCameraLayout": "three cameras in triangular arrangement",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-12",
+      "marketingName": "iPhone 12",
+      "family": "iPhone 12",
+      "segment": "base",
+      "introducedYear": 2020,
+      "storageGB": [
+        64,
+        128,
+        256
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "product-red",
+        "green",
+        "blue",
+        "purple"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "(PRODUCT)RED",
+        "Green",
+        "Blue",
+        "Purple"
+      ],
+      "dimensionsMm": {
+        "width": 71.5,
+        "height": 146.7,
+        "depth": 7.4
+      },
+      "weightGrams": 164,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 6.1,
+        "resolutionPixels": {
+          "width": 2532,
+          "height": 1170
+        },
+        "pixelsPerInch": 460,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 625,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A14 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 17,
+        "streamedVideoPlaybackHours": 11,
+        "audioPlaybackHours": 65
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two vertically aligned cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-12-mini",
+      "marketingName": "iPhone 12 mini",
+      "family": "iPhone 12",
+      "segment": "mini",
+      "introducedYear": 2020,
+      "storageGB": [
+        64,
+        128,
+        256
+      ],
+      "finishIds": [
+        "black",
+        "white",
+        "product-red",
+        "green",
+        "blue",
+        "purple"
+      ],
+      "officialFinishNames": [
+        "Black",
+        "White",
+        "(PRODUCT)RED",
+        "Green",
+        "Blue",
+        "Purple"
+      ],
+      "dimensionsMm": {
+        "width": 64.2,
+        "height": 131.5,
+        "depth": 7.4
+      },
+      "weightGrams": 135,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "Ceramic Shield",
+        "backMaterial": "glass",
+        "design": "aluminum design"
+      },
+      "display": {
+        "marketingName": "Super Retina XDR display",
+        "technology": "OLED",
+        "diagonalInches": 5.4,
+        "resolutionPixels": {
+          "width": 2340,
+          "height": 1080
+        },
+        "pixelsPerInch": 476,
+        "hdr": true,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 625,
+          "hdrPeak": 1200,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A14 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 16
+      },
+      "rearCamera": {
+        "systemName": "Dual-camera system",
+        "physicalCameraCount": 2,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.6
+          },
+          {
+            "role": "ultra_wide",
+            "megapixels": 12,
+            "aperture": 2.4
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": 2,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "TrueDepth camera",
+        "megapixels": 12,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 15,
+        "streamedVideoPlaybackHours": 10,
+        "audioPlaybackHours": 50
+      },
+      "biometrics": "face_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": 15,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP68",
+        "maximumDepthMeters": 6,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": true,
+        "touchId": false,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": false,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": true,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": true,
+        "partsHistoryBatteryOnly": false,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 2,
+        "rearCameraLayout": "two vertically aligned cameras",
+        "simTraySideWhenPresent": "left",
+        "homeButton": false,
+        "dynamicIsland": false,
+        "displayCutout": "notch"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-mini"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    },
+    {
+      "id": "iphone-se-2",
+      "marketingName": "iPhone SE (2nd generation)",
+      "family": "iPhone SE",
+      "segment": "se",
+      "introducedYear": 2020,
+      "storageGB": [
+        64,
+        128,
+        256
+      ],
+      "finishIds": [
+        "white",
+        "black",
+        "product-red"
+      ],
+      "officialFinishNames": [
+        "White",
+        "Black",
+        "(PRODUCT)RED"
+      ],
+      "dimensionsMm": {
+        "width": 67.3,
+        "height": 138.4,
+        "depth": 7.3
+      },
+      "weightGrams": 148,
+      "construction": {
+        "frameMaterial": "aluminum",
+        "frontMaterial": "glass",
+        "backMaterial": "glass",
+        "design": "aluminum and glass design"
+      },
+      "display": {
+        "marketingName": "Retina HD display",
+        "technology": "LCD IPS",
+        "diagonalInches": 4.7,
+        "resolutionPixels": {
+          "width": 1334,
+          "height": 750
+        },
+        "pixelsPerInch": 326,
+        "hdr": false,
+        "trueTone": true,
+        "wideColorP3": true,
+        "hapticTouch": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "maximumAdaptiveRefreshRateHz": null,
+        "alwaysOn": false,
+        "brightnessNits": {
+          "typicalMaximum": 625,
+          "hdrPeak": null,
+          "outdoorPeak": null,
+          "minimum": null
+        }
+      },
+      "chip": {
+        "name": "A13 Bionic",
+        "cpuCores": 6,
+        "gpuCores": 4,
+        "neuralEngineCores": 8
+      },
+      "rearCamera": {
+        "systemName": "Single-camera system",
+        "physicalCameraCount": 1,
+        "lenses": [
+          {
+            "role": "wide",
+            "megapixels": 12,
+            "aperture": 1.8
+          }
+        ],
+        "opticalZoomIn": 1,
+        "opticalZoomOut": null,
+        "digitalZoomMaximum": 5,
+        "macroPhotography": false,
+        "liDAR": false
+      },
+      "frontCamera": {
+        "name": "FaceTime HD camera",
+        "megapixels": 7,
+        "aperture": 2.2,
+        "autofocus": false,
+        "centerStage": false
+      },
+      "batteryReference": {
+        "videoPlaybackHours": 13,
+        "streamedVideoPlaybackHours": 8,
+        "audioPlaybackHours": 40
+      },
+      "biometrics": "touch_id",
+      "controls": {
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": true,
+        "sideButton": true,
+        "volumeButtons": true
+      },
+      "connector": {
+        "type": "Lightning",
+        "dataStandard": "USB 2",
+        "maximumDataRateMbps": 480
+      },
+      "charging": {
+        "magSafeMaximumWatts": null,
+        "qi2MaximumWatts": null,
+        "qiMaximumWatts": 7.5,
+        "wirelessCharging": true
+      },
+      "waterResistance": {
+        "rating": "IP67",
+        "maximumDepthMeters": 1,
+        "maximumDurationMinutes": 30,
+        "standard": "IEC 60529"
+      },
+      "capabilities": {
+        "faceId": false,
+        "touchId": true,
+        "dynamicIsland": false,
+        "proMotion": false,
+        "alwaysOnDisplay": false,
+        "actionButton": false,
+        "cameraControl": false,
+        "ringSilentSwitch": true,
+        "homeButton": true,
+        "liDAR": false,
+        "macroPhotography": false,
+        "physicalTelephotoCamera": false,
+        "opticalQuality2xCrop": false,
+        "frontCameraAutofocus": false,
+        "centerStageFrontCamera": false,
+        "usbC": false,
+        "lightning": true,
+        "usb3Data": false,
+        "magSafe": false,
+        "qi2": false,
+        "wirelessCharging": true,
+        "appleIntelligence": false,
+        "partsHistoryFull": false,
+        "partsHistoryBatteryOnly": true,
+        "batteryCycleCountInSettings": false
+      },
+      "physicalIdentification": {
+        "rearPhysicalCameraCount": 1,
+        "rearCameraLayout": "single camera",
+        "simTraySideWhenPresent": "right",
+        "homeButton": true,
+        "dynamicIsland": false,
+        "displayCutout": "home_button_bezels"
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-2"
+      ],
+      "verification": {
+        "status": "verified_against_official_apple_sources",
+        "verifiedAt": "2026-08-27",
+        "normalizationPolicy": "Only normalized facts represented in this record are asserted. Unrepresented Apple specification bullets are not inferred."
+      }
+    }
+  ]
+}

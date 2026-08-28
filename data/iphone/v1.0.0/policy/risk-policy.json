@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-draft-structure",
+  "levels": [
+    "UNASSESSED",
+    "LOW",
+    "MODERATE",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "officialStopConditions": [
+    {
+      "ruleId": "reset.locked-to-owner",
+      "triggerAnswerOptionIds": [
+        "yes"
+      ],
+      "level": "CRITICAL",
+      "sourceIds": [
+        "apple-preowned-iphone-guide"
+      ],
+      "message": "Apple advises not to take ownership of an iPhone protected by Activation Lock."
+    }
+  ],
+  "safetyCriticalCandidatesRequiringPolicyApproval": [
+    "battery.screen-lift",
+    "battery.back-lift",
+    "battery.swelling-signs",
+    "liquid.camera-condensation",
+    "charging.abnormal-port-heat"
+  ],
+  "transactionCriticalCandidatesRequiringPolicyApproval": [
+    "reset.remote-management",
+    "transaction.allows-reset",
+    "transaction.account-access"
+  ],
+  "status": "partially_grounded_requires_product_and_legal_review"
+}

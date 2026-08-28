@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "runtimePolicy": "Detect browser/API support and permission at runtime. Never mark a diagnostic completed merely because its UI opened.",
+  "diagnostics": [
+    {
+      "id": "display-patterns",
+      "categoryId": "display",
+      "method": "visual_user_observation",
+      "patterns": [
+        {
+          "id": "solid-white",
+          "cssBackground": "#FFFFFF",
+          "purpose": [
+            "dead_pixels",
+            "staining",
+            "uniformity"
+          ]
+        },
+        {
+          "id": "solid-black",
+          "cssBackground": "#000000",
+          "purpose": [
+            "oled_glow",
+            "stuck_pixels",
+            "burn_in"
+          ]
+        },
+        {
+          "id": "solid-red",
+          "cssBackground": "#FF0000",
+          "purpose": [
+            "stuck_pixels",
+            "uniformity"
+          ]
+        },
+        {
+          "id": "solid-green",
+          "cssBackground": "#00FF00",
+          "purpose": [
+            "stuck_pixels",
+            "uniformity"
+          ]
+        },
+        {
+          "id": "solid-blue",
+          "cssBackground": "#0000FF",
+          "purpose": [
+            "stuck_pixels",
+            "uniformity"
+          ]
+        },
+        {
+          "id": "gray-25",
+          "cssBackground": "#404040",
+          "purpose": [
+            "burn_in",
+            "uniformity",
+            "tint"
+          ]
+        },
+        {
+          "id": "gray-50",
+          "cssBackground": "#808080",
+          "purpose": [
+            "burn_in",
+            "uniformity",
+            "tint"
+          ]
+        },
+        {
+          "id": "gray-75",
+          "cssBackground": "#BFBFBF",
+          "purpose": [
+            "burn_in",
+            "uniformity",
+            "tint"
+          ]
+        },
+        {
+          "id": "grayscale-gradient",
+          "cssBackground": "linear-gradient(90deg,#000000,#FFFFFF)",
+          "purpose": [
+            "banding",
+            "gradient_uniformity"
+          ]
+        },
+        {
+          "id": "checkerboard",
+          "generator": "runtime_checkerboard",
+          "purpose": [
+            "focus",
+            "edge_clarity",
+            "image_retention"
+          ]
+        },
+        {
+          "id": "small-text",
+          "generator": "runtime_text_chart",
+          "purpose": [
+            "sharpness",
+            "touch_scrolling"
+          ]
+        }
+      ],
+      "automaticPassFail": false,
+      "disclaimer": "Web patterns can aid observation but cannot calibrate color accuracy, brightness, refresh rate, PWM, or panel authenticity."
+    },
+    {
+      "id": "touch-grid",
+      "categoryId": "display",
+      "method": "browser_touch_events",
+      "gridRows": null,
+      "gridColumns": null,
+      "requiresCalibration": true,
+      "records": [
+        "cells_touched",
+        "cells_untouched",
+        "pointer_interruptions"
+      ],
+      "automaticPassFail": false,
+      "disclaimer": "Grid density must be UX-tested across viewport sizes. Untouched cells can result from user path rather than hardware failure."
+    },
+    {
+      "id": "microphone-record-playback",
+      "categoryId": "audio_microphones",
+      "method": "media_devices_get_user_media",
+      "permissions": [
+        "microphone"
+      ],
+      "retention": "memory_only_by_default",
+      "automaticPassFail": false,
+      "disclaimer": "Browser recording cannot isolate every physical microphone or certify frequency response."
+    },
+    {
+      "id": "camera-preview",
+      "categoryId": "camera",
+      "method": "media_devices_get_user_media",
+      "permissions": [
+        "camera"
+      ],
+      "cameraSelection": "runtime_available_constraints",
+      "automaticPassFail": false,
+      "disclaimer": "Browser camera APIs may not expose every physical lens or Apple Camera feature."
+    },
+    {
+      "id": "motion-orientation",
+      "categoryId": "biometrics_sensors",
+      "method": "device_motion_or_orientation_api",
+      "permissions": [
+        "motion_when_required"
+      ],
+      "automaticPassFail": false,
+      "disclaimer": "API availability and values depend on Safari version, permission, and privacy settings. This is not calibration."
+    },
+    {
+      "id": "audio-channel-cues",
+      "categoryId": "audio_microphones",
+      "method": "web_audio_playback",
+      "assetsRequired": [
+        "spoken_left_cue",
+        "spoken_right_cue",
+        "spoken_center_cue"
+      ],
+      "automaticPassFail": false,
+      "disclaimer": "This is a listening aid, not a speaker-frequency or laboratory balance measurement."
+    }
+  ]
+}

@@ -1,0 +1,3782 @@
+{
+  "version": "1.0.0",
+  "variants": [
+    {
+      "id": "iphone-17e-a3575",
+      "deviceId": "iphone-17e",
+      "aNumber": "A3575",
+      "marketGroupLabel": "United States, Puerto Rico, Bahrain, Canada, Guam, Japan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico",
+        "Bahrain",
+        "Canada",
+        "Guam",
+        "Japan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17e-a3635",
+      "deviceId": "iphone-17e",
+      "aNumber": "A3635",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17e-a3634",
+      "deviceId": "iphone-17e",
+      "aNumber": "A3634",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-max-a3257",
+      "deviceId": "iphone-17-pro-max",
+      "aNumber": "A3257",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-max-a3525",
+      "deviceId": "iphone-17-pro-max",
+      "aNumber": "A3525",
+      "marketGroupLabel": "Bahrain, Canada, Guam, Japan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Guam",
+        "Japan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-max-a3527",
+      "deviceId": "iphone-17-pro-max",
+      "aNumber": "A3527",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-max-a3526",
+      "deviceId": "iphone-17-pro-max",
+      "aNumber": "A3526",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-a3256",
+      "deviceId": "iphone-17-pro",
+      "aNumber": "A3256",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-a3522",
+      "deviceId": "iphone-17-pro",
+      "aNumber": "A3522",
+      "marketGroupLabel": "Bahrain, Canada, Guam, Japan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Guam",
+        "Japan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-a3524",
+      "deviceId": "iphone-17-pro",
+      "aNumber": "A3524",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-pro-a3523",
+      "deviceId": "iphone-17-pro",
+      "aNumber": "A3523",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-a3258",
+      "deviceId": "iphone-17",
+      "aNumber": "A3258",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-a3519",
+      "deviceId": "iphone-17",
+      "aNumber": "A3519",
+      "marketGroupLabel": "Bahrain, Canada, Guam, Japan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Guam",
+        "Japan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-a3521",
+      "deviceId": "iphone-17",
+      "aNumber": "A3521",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-17-a3520",
+      "deviceId": "iphone-17",
+      "aNumber": "A3520",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-17",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-air-a3260",
+      "deviceId": "iphone-air",
+      "aNumber": "A3260",
+      "marketGroupLabel": "United States, Puerto Rico, Bahrain, Canada, Guam, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico",
+        "Bahrain",
+        "Canada",
+        "Guam",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-air",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-air-a3516",
+      "deviceId": "iphone-air",
+      "aNumber": "A3516",
+      "marketGroupLabel": "Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Japan"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-air",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-air-a3518",
+      "deviceId": "iphone-air",
+      "aNumber": "A3518",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-air",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-air-a3517",
+      "deviceId": "iphone-air",
+      "aNumber": "A3517",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-air",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16e-a3212",
+      "deviceId": "iphone-16e",
+      "aNumber": "A3212",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16e-a3408",
+      "deviceId": "iphone-16e",
+      "aNumber": "A3408",
+      "marketGroupLabel": "Bahrain, Canada, Iraq, Guam, Jordan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Iraq",
+        "Guam",
+        "Jordan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16e-a3410",
+      "deviceId": "iphone-16e",
+      "aNumber": "A3410",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16e-a3409",
+      "deviceId": "iphone-16e",
+      "aNumber": "A3409",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16e",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16e",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-max-a3084",
+      "deviceId": "iphone-16-pro-max",
+      "aNumber": "A3084",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-max-a3295",
+      "deviceId": "iphone-16-pro-max",
+      "aNumber": "A3295",
+      "marketGroupLabel": "Bahrain, Canada, Iraq, Guam, Japan, Jordan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Iraq",
+        "Guam",
+        "Japan",
+        "Jordan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-max-a3297",
+      "deviceId": "iphone-16-pro-max",
+      "aNumber": "A3297",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-max-a3296",
+      "deviceId": "iphone-16-pro-max",
+      "aNumber": "A3296",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-a3083",
+      "deviceId": "iphone-16-pro",
+      "aNumber": "A3083",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-a3292",
+      "deviceId": "iphone-16-pro",
+      "aNumber": "A3292",
+      "marketGroupLabel": "Bahrain, Canada, Iraq, Guam, Japan, Jordan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Iraq",
+        "Guam",
+        "Japan",
+        "Jordan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-a3294",
+      "deviceId": "iphone-16-pro",
+      "aNumber": "A3294",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-pro-a3293",
+      "deviceId": "iphone-16-pro",
+      "aNumber": "A3293",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-plus-a3082",
+      "deviceId": "iphone-16-plus",
+      "aNumber": "A3082",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-plus-a3289",
+      "deviceId": "iphone-16-plus",
+      "aNumber": "A3289",
+      "marketGroupLabel": "Bahrain, Canada, Iraq, Guam, Japan, Jordan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Iraq",
+        "Guam",
+        "Japan",
+        "Jordan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-plus-a3291",
+      "deviceId": "iphone-16-plus",
+      "aNumber": "A3291",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-plus-a3290",
+      "deviceId": "iphone-16-plus",
+      "aNumber": "A3290",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-a3081",
+      "deviceId": "iphone-16",
+      "aNumber": "A3081",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-a3286",
+      "deviceId": "iphone-16",
+      "aNumber": "A3286",
+      "marketGroupLabel": "Bahrain, Canada, Iraq, Guam, Japan, Jordan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, United Arab Emirates, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Bahrain",
+        "Canada",
+        "Iraq",
+        "Guam",
+        "Japan",
+        "Jordan",
+        "Kuwait",
+        "Mexico",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-a3288",
+      "deviceId": "iphone-16",
+      "aNumber": "A3288",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-16-a3287",
+      "deviceId": "iphone-16",
+      "aNumber": "A3287",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-16",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-max-a2849",
+      "deviceId": "iphone-15-pro-max",
+      "aNumber": "A2849",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-max-a3105",
+      "deviceId": "iphone-15-pro-max",
+      "aNumber": "A3105",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-max-a3108",
+      "deviceId": "iphone-15-pro-max",
+      "aNumber": "A3108",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-max-a3106",
+      "deviceId": "iphone-15-pro-max",
+      "aNumber": "A3106",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-a2848",
+      "deviceId": "iphone-15-pro",
+      "aNumber": "A2848",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-a3101",
+      "deviceId": "iphone-15-pro",
+      "aNumber": "A3101",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-a3104",
+      "deviceId": "iphone-15-pro",
+      "aNumber": "A3104",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-pro-a3102",
+      "deviceId": "iphone-15-pro",
+      "aNumber": "A3102",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-plus-a2847",
+      "deviceId": "iphone-15-plus",
+      "aNumber": "A2847",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-plus-a3093",
+      "deviceId": "iphone-15-plus",
+      "aNumber": "A3093",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-plus-a3096",
+      "deviceId": "iphone-15-plus",
+      "aNumber": "A3096",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-plus-a3094",
+      "deviceId": "iphone-15-plus",
+      "aNumber": "A3094",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-a2846",
+      "deviceId": "iphone-15",
+      "aNumber": "A2846",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-a3089",
+      "deviceId": "iphone-15",
+      "aNumber": "A3089",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-a3092",
+      "deviceId": "iphone-15",
+      "aNumber": "A3092",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-15-a3090",
+      "deviceId": "iphone-15",
+      "aNumber": "A3090",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-15",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-max-a2651",
+      "deviceId": "iphone-14-pro-max",
+      "aNumber": "A2651",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-max-a2893",
+      "deviceId": "iphone-14-pro-max",
+      "aNumber": "A2893",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-max-a2896",
+      "deviceId": "iphone-14-pro-max",
+      "aNumber": "A2896",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-max-a2895",
+      "deviceId": "iphone-14-pro-max",
+      "aNumber": "A2895",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-max-a2894",
+      "deviceId": "iphone-14-pro-max",
+      "aNumber": "A2894",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-a2650",
+      "deviceId": "iphone-14-pro",
+      "aNumber": "A2650",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-a2889",
+      "deviceId": "iphone-14-pro",
+      "aNumber": "A2889",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-a2892",
+      "deviceId": "iphone-14-pro",
+      "aNumber": "A2892",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-a2891",
+      "deviceId": "iphone-14-pro",
+      "aNumber": "A2891",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-pro-a2890",
+      "deviceId": "iphone-14-pro",
+      "aNumber": "A2890",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-plus-a2632",
+      "deviceId": "iphone-14-plus",
+      "aNumber": "A2632",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-plus-a2885",
+      "deviceId": "iphone-14-plus",
+      "aNumber": "A2885",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-plus-a2888",
+      "deviceId": "iphone-14-plus",
+      "aNumber": "A2888",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-plus-a2887",
+      "deviceId": "iphone-14-plus",
+      "aNumber": "A2887",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-plus-a2886",
+      "deviceId": "iphone-14-plus",
+      "aNumber": "A2886",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14-plus",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-a2649",
+      "deviceId": "iphone-14",
+      "aNumber": "A2649",
+      "marketGroupLabel": "United States, Puerto Rico",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "physicalSimTray": false,
+      "simTraySide": null,
+      "physicalSimFormFactor": null,
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": false,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-a2881",
+      "deviceId": "iphone-14",
+      "aNumber": "A2881",
+      "marketGroupLabel": "Canada, Guam, Japan, Mexico, Saudi Arabia, U.S. Virgin Islands",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Guam",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia",
+        "U.S. Virgin Islands"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-a2884",
+      "deviceId": "iphone-14",
+      "aNumber": "A2884",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-a2883",
+      "deviceId": "iphone-14",
+      "aNumber": "A2883",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-14-a2882",
+      "deviceId": "iphone-14",
+      "aNumber": "A2882",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-14",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-3-a2595",
+      "deviceId": "iphone-se-3",
+      "aNumber": "A2595",
+      "marketGroupLabel": "United States, Canada, Puerto Rico, U.S. Virgin Islands, Guam, Mexico, Saudi Arabia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States",
+        "Canada",
+        "Puerto Rico",
+        "U.S. Virgin Islands",
+        "Guam",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-3",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-3-a2782",
+      "deviceId": "iphone-se-3",
+      "aNumber": "A2782",
+      "marketGroupLabel": "Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Japan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-3",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-3-a2784",
+      "deviceId": "iphone-se-3",
+      "aNumber": "A2784",
+      "marketGroupLabel": "Russia, Armenia, Belarus, Kazakhstan, Kyrgyzstan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Russia",
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-3",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-3-a2785",
+      "deviceId": "iphone-se-3",
+      "aNumber": "A2785",
+      "marketGroupLabel": "China",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-3",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-3-a2783",
+      "deviceId": "iphone-se-3",
+      "aNumber": "A2783",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-3",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-3",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-max-a2484",
+      "deviceId": "iphone-13-pro-max",
+      "aNumber": "A2484",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-max-a2641",
+      "deviceId": "iphone-13-pro-max",
+      "aNumber": "A2641",
+      "marketGroupLabel": "Canada, Japan, Mexico, Saudi Arabia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-max-a2644",
+      "deviceId": "iphone-13-pro-max",
+      "aNumber": "A2644",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-max-a2645",
+      "deviceId": "iphone-13-pro-max",
+      "aNumber": "A2645",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-max-a2643",
+      "deviceId": "iphone-13-pro-max",
+      "aNumber": "A2643",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-a2483",
+      "deviceId": "iphone-13-pro",
+      "aNumber": "A2483",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-a2636",
+      "deviceId": "iphone-13-pro",
+      "aNumber": "A2636",
+      "marketGroupLabel": "Canada, Japan, Mexico, Saudi Arabia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-a2639",
+      "deviceId": "iphone-13-pro",
+      "aNumber": "A2639",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-a2640",
+      "deviceId": "iphone-13-pro",
+      "aNumber": "A2640",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-pro-a2638",
+      "deviceId": "iphone-13-pro",
+      "aNumber": "A2638",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-a2482",
+      "deviceId": "iphone-13",
+      "aNumber": "A2482",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-a2631",
+      "deviceId": "iphone-13",
+      "aNumber": "A2631",
+      "marketGroupLabel": "Canada, Japan, Mexico, Saudi Arabia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-a2634",
+      "deviceId": "iphone-13",
+      "aNumber": "A2634",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-a2635",
+      "deviceId": "iphone-13",
+      "aNumber": "A2635",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-a2633",
+      "deviceId": "iphone-13",
+      "aNumber": "A2633",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-mini-a2481",
+      "deviceId": "iphone-13-mini",
+      "aNumber": "A2481",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-mini-a2626",
+      "deviceId": "iphone-13-mini",
+      "aNumber": "A2626",
+      "marketGroupLabel": "Canada, Japan, Mexico, Saudi Arabia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-mini-a2629",
+      "deviceId": "iphone-13-mini",
+      "aNumber": "A2629",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-mini-a2630",
+      "deviceId": "iphone-13-mini",
+      "aNumber": "A2630",
+      "marketGroupLabel": "Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Armenia",
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russia"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-13-mini-a2628",
+      "deviceId": "iphone-13-mini",
+      "aNumber": "A2628",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-13-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-max-a2342",
+      "deviceId": "iphone-12-pro-max",
+      "aNumber": "A2342",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-max-a2410",
+      "deviceId": "iphone-12-pro-max",
+      "aNumber": "A2410",
+      "marketGroupLabel": "Canada, Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-max-a2412",
+      "deviceId": "iphone-12-pro-max",
+      "aNumber": "A2412",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-max-a2411",
+      "deviceId": "iphone-12-pro-max",
+      "aNumber": "A2411",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro-max",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-a2341",
+      "deviceId": "iphone-12-pro",
+      "aNumber": "A2341",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-a2406",
+      "deviceId": "iphone-12-pro",
+      "aNumber": "A2406",
+      "marketGroupLabel": "Canada, Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-a2408",
+      "deviceId": "iphone-12-pro",
+      "aNumber": "A2408",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-pro-a2407",
+      "deviceId": "iphone-12-pro",
+      "aNumber": "A2407",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-pro",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-a2172",
+      "deviceId": "iphone-12",
+      "aNumber": "A2172",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-a2402",
+      "deviceId": "iphone-12",
+      "aNumber": "A2402",
+      "marketGroupLabel": "Canada, Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-a2404",
+      "deviceId": "iphone-12",
+      "aNumber": "A2404",
+      "marketGroupLabel": "China mainland, Hong Kong, Macao",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland",
+        "Hong Kong",
+        "Macao"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-a2403",
+      "deviceId": "iphone-12",
+      "aNumber": "A2403",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-mini-a2176",
+      "deviceId": "iphone-12-mini",
+      "aNumber": "A2176",
+      "marketGroupLabel": "United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-mini-a2398",
+      "deviceId": "iphone-12-mini",
+      "aNumber": "A2398",
+      "marketGroupLabel": "Canada, Japan",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "Japan"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-mini-a2400",
+      "deviceId": "iphone-12-mini",
+      "aNumber": "A2400",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-12-mini-a2399",
+      "deviceId": "iphone-12-mini",
+      "aNumber": "A2399",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "left",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-12-mini",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-2-a2275",
+      "deviceId": "iphone-se-2",
+      "aNumber": "A2275",
+      "marketGroupLabel": "Canada, United States",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "Canada",
+        "United States"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-2",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-2",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-2-a2298",
+      "deviceId": "iphone-se-2",
+      "aNumber": "A2298",
+      "marketGroupLabel": "China mainland",
+      "marketCoverageType": "enumerated_countries",
+      "countriesAndRegionsAsPublishedByApple": [
+        "China mainland"
+      ],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-2",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-2",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    },
+    {
+      "id": "iphone-se-2-a2296",
+      "deviceId": "iphone-se-2",
+      "aNumber": "A2296",
+      "marketGroupLabel": "Other countries and regions",
+      "marketCoverageType": "other_countries_and_regions",
+      "countriesAndRegionsAsPublishedByApple": [],
+      "physicalSimTray": true,
+      "simTraySide": "right",
+      "physicalSimFormFactor": "nano-SIM",
+      "physicalSimSlotCount": null,
+      "eSimSupport": null,
+      "externalLiquidContactIndicatorExpected": true,
+      "cellularBandProfile": {
+        "normalizedInThisDataset": false,
+        "sourceId": "apple-tech-spec-iphone-se-2",
+        "note": "Use the cited Apple technical-specification page for model-number-specific cellular bands. No band support is inferred here."
+      },
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-se-2",
+        "apple-liquid-contact-indicator"
+      ],
+      "verification": {
+        "status": "verified_official_market_group",
+        "verifiedAt": "2026-08-27"
+      }
+    }
+  ]
+}

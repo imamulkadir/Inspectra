@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+src/generated/
+public/sw-cache-version.json
+test-results/
+playwright-report/
+playwright/.cache/
+coverage/
+.vscode/*
+!.vscode/extensions.json

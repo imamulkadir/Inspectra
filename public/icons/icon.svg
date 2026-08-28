@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Inspectra">
+  <rect width="512" height="512" rx="112" fill="#0071e3"/>
+  <rect x="176" y="96" width="160" height="320" rx="28" fill="none" stroke="#ffffff" stroke-width="16"/>
+  <circle cx="256" cy="368" r="10" fill="#ffffff"/>
+  <path d="M216 176l28 28 52-56" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

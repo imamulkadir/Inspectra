@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "identity",
+      "name": "Identity & Configuration",
+      "order": 10
+    },
+    {
+      "id": "regional_variant",
+      "name": "Regional Variant & SIM Hardware",
+      "order": 20
+    },
+    {
+      "id": "ownership_security",
+      "name": "Ownership, Activation & Management",
+      "order": 30
+    },
+    {
+      "id": "parts_repair",
+      "name": "Parts & Repair History",
+      "order": 40
+    },
+    {
+      "id": "battery",
+      "name": "Battery & Power Behaviour",
+      "order": 50
+    },
+    {
+      "id": "display",
+      "name": "Display & Touch",
+      "order": 60
+    },
+    {
+      "id": "camera",
+      "name": "Cameras & Imaging",
+      "order": 70
+    },
+    {
+      "id": "biometrics_sensors",
+      "name": "Biometrics & Sensors",
+      "order": 80
+    },
+    {
+      "id": "audio_microphones",
+      "name": "Audio, Speakers & Microphones",
+      "order": 90
+    },
+    {
+      "id": "controls_haptics",
+      "name": "Buttons, Controls & Haptics",
+      "order": 100
+    },
+    {
+      "id": "charging_ports",
+      "name": "Charging, Port & Data",
+      "order": 110
+    },
+    {
+      "id": "cellular_wireless",
+      "name": "Cellular, Wi-Fi & Bluetooth",
+      "order": 120
+    },
+    {
+      "id": "physical_condition",
+      "name": "Physical Condition",
+      "order": 130
+    },
+    {
+      "id": "liquid_exposure",
+      "name": "Liquid-Exposure Indicators",
+      "order": 140
+    },
+    {
+      "id": "software_health",
+      "name": "Software Health",
+      "order": 150
+    },
+    {
+      "id": "seller_transaction",
+      "name": "Seller & Transaction Risk",
+      "order": 160
+    },
+    {
+      "id": "reset_activation",
+      "name": "Final Reset & Activation Verification",
+      "order": 170
+    }
+  ]
+}

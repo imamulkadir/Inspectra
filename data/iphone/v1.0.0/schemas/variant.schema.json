@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "variant.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "deviceId",
+    "aNumber",
+    "marketCoverageType",
+    "physicalSimTray",
+    "sourceIds"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "deviceId": {
+      "type": "string"
+    },
+    "aNumber": {
+      "type": "string",
+      "pattern": "^A[0-9]{4}$"
+    },
+    "marketCoverageType": {
+      "enum": [
+        "enumerated_countries",
+        "other_countries_and_regions"
+      ]
+    },
+    "physicalSimTray": {
+      "type": "boolean"
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

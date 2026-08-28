@@ -1,0 +1,236 @@
+{
+  "version": "1.0.0",
+  "followUps": [
+    {
+      "id": "followup-finish-mismatch",
+      "trigger": {
+        "ruleId": "identity.finish",
+        "answerOptionIds": [
+          "mismatch"
+        ]
+      },
+      "addRuleIds": [
+        "parts.housing-color-consistency",
+        "physical.finish-uniformity",
+        "physical.panel-gaps",
+        "physical.official-weight"
+      ],
+      "message": "Investigate an incorrect model selection, seller description, skin/case, or replaced/modified housing. Do not label the phone counterfeit from color alone."
+    },
+    {
+      "id": "followup-a-number-mismatch",
+      "trigger": {
+        "ruleId": "identity.a-number",
+        "answerOptionIds": [
+          "mismatch"
+        ]
+      },
+      "addRuleIds": [
+        "identity.model-name",
+        "variant.market-group",
+        "identity.connector",
+        "identity.camera-layout"
+      ],
+      "message": "Re-identify the model before continuing because the selected model and A-number are inconsistent."
+    },
+    {
+      "id": "followup-sim-tray-mismatch",
+      "trigger": {
+        "ruleId": "variant.sim-tray-presence",
+        "answerOptionIds": [
+          "mismatch"
+        ]
+      },
+      "addRuleIds": [
+        "identity.a-number",
+        "variant.market-group",
+        "parts.panel-fit"
+      ],
+      "message": "Recheck the exact A-number and housing; a tray mismatch can indicate an incorrect market selection or housing inconsistency."
+    },
+    {
+      "id": "followup-face-id-failure",
+      "trigger": {
+        "ruleId": "biometrics.face-id-enrollment",
+        "answerOptionIds": [
+          "partial",
+          "failed"
+        ]
+      },
+      "addRuleIds": [
+        "camera.front",
+        "biometrics.face-id-portrait-selfie",
+        "sensor.proximity",
+        "parts.front-camera-status",
+        "parts.biometric-after-repair"
+      ],
+      "message": "Inspect the TrueDepth/front-camera system and repair history. The dataset does not diagnose the failed component."
+    },
+    {
+      "id": "followup-true-tone-missing",
+      "trigger": {
+        "ruleId": "display.true-tone",
+        "answerOptionIds": [
+          "partial",
+          "failed"
+        ]
+      },
+      "addRuleIds": [
+        "parts.display-status",
+        "parts.true-tone-after-repair",
+        "display.auto-brightness"
+      ],
+      "message": "Review display repair status and related behavior; missing True Tone alone is not proof of a nongenuine display."
+    },
+    {
+      "id": "followup-battery-service",
+      "trigger": {
+        "ruleId": "battery.service-recommendation",
+        "answerOptionIds": [
+          "present"
+        ]
+      },
+      "addRuleIds": [
+        "battery.parts-history",
+        "battery.peak-performance",
+        "battery.swelling-signs",
+        "battery.charging-stable"
+      ],
+      "message": "Record the service recommendation and inspect for safety-related swelling or instability."
+    },
+    {
+      "id": "followup-battery-swelling",
+      "trigger": {
+        "ruleId": "battery.swelling-signs",
+        "answerOptionIds": [
+          "present"
+        ]
+      },
+      "addRuleIds": [],
+      "message": "Stop ordinary handling/charging and seek qualified service guidance. Do not press lifted panels back into place.",
+      "productPolicyCandidate": "critical_safety_stop"
+    },
+    {
+      "id": "followup-unknown-part",
+      "trigger": {
+        "ruleIdPattern": "^parts\\..*-status$",
+        "answerOptionIds": [
+          "unknown",
+          "unverified",
+          "finish_repair"
+        ]
+      },
+      "addRuleIds": [
+        "parts.service-date",
+        "parts.panel-fit",
+        "parts.repair-disclosure-match"
+      ],
+      "message": "Record the exact Apple status and supporting screenshot; do not convert it into a broader authenticity claim."
+    },
+    {
+      "id": "followup-panic-entries",
+      "trigger": {
+        "ruleId": "software.panic-full-observation",
+        "nonEmptyObservation": true
+      },
+      "addRuleIds": [
+        "software.repeated-restarts",
+        "software.restart",
+        "software.thermal-warning"
+      ],
+      "message": "Repeated entries warrant further investigation, but filenames alone do not identify a cause."
+    },
+    {
+      "id": "followup-activation-lock",
+      "trigger": {
+        "ruleId": "reset.locked-to-owner",
+        "answerOptionIds": [
+          "yes"
+        ]
+      },
+      "addRuleIds": [],
+      "message": "Apple advises not to take ownership while Activation Lock remains.",
+      "officialStopCondition": true
+    },
+    {
+      "id": "followup-remote-management",
+      "trigger": {
+        "ruleId": "reset.remote-management",
+        "answerOptionIds": [
+          "yes"
+        ]
+      },
+      "addRuleIds": [
+        "reset.management-recheck",
+        "security.supervision-message",
+        "security.vpn-device-management"
+      ],
+      "message": "Do not assume management can be removed by the buyer. The organization or seller must resolve it before transfer.",
+      "productPolicyCandidate": "critical_transaction_risk"
+    },
+    {
+      "id": "followup-lci-red",
+      "trigger": {
+        "ruleId": "liquid.lci",
+        "answerOptionIds": [
+          "red"
+        ]
+      },
+      "addRuleIds": [
+        "liquid.port-corrosion",
+        "liquid.sim-tray-corrosion",
+        "liquid.camera-condensation",
+        "liquid.display-staining",
+        "liquid.audio-muffling"
+      ],
+      "message": "A red LCI indicates contact with liquid containing water; it does not by itself describe the current extent of damage."
+    },
+    {
+      "id": "followup-camera-condensation",
+      "trigger": {
+        "ruleId": "camera.condensation",
+        "answerOptionIds": [
+          "present"
+        ]
+      },
+      "addRuleIds": [
+        "liquid.camera-condensation",
+        "liquid.lci",
+        "liquid.port-corrosion"
+      ],
+      "message": "Treat visible internal moisture as a high-priority condition requiring further evaluation."
+    },
+    {
+      "id": "followup-wired-charge-fail",
+      "trigger": {
+        "ruleId": "charging.wired",
+        "answerOptionIds": [
+          "partial",
+          "failed"
+        ]
+      },
+      "addRuleIds": [
+        "charging.port-visual",
+        "charging.cable-fit",
+        "charging.both-orientations",
+        "charging.wireless"
+      ],
+      "message": "Retest with known-good compatible equipment and inspect the connector before drawing a device-level conclusion."
+    },
+    {
+      "id": "followup-reset-skipped",
+      "trigger": {
+        "ruleId": "reset.final-verification-completed",
+        "answerOptionIds": [
+          "no",
+          "unknown"
+        ]
+      },
+      "effect": {
+        "confidence": "must_not_be_high",
+        "coverageWarning": true
+      },
+      "message": "The final result must clearly state that Activation Lock and post-reset management behavior were not fully verified."
+    }
+  ]
+}

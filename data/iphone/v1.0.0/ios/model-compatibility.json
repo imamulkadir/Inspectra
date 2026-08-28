@@ -1,0 +1,41 @@
+{
+  "verifiedAt": "2026-08-27",
+  "iosMajor": 26,
+  "compatibleDeviceIds": [
+    "iphone-17e",
+    "iphone-17-pro-max",
+    "iphone-17-pro",
+    "iphone-17",
+    "iphone-air",
+    "iphone-16e",
+    "iphone-16-pro-max",
+    "iphone-16-pro",
+    "iphone-16-plus",
+    "iphone-16",
+    "iphone-15-pro-max",
+    "iphone-15-pro",
+    "iphone-15-plus",
+    "iphone-15",
+    "iphone-14-pro-max",
+    "iphone-14-pro",
+    "iphone-14-plus",
+    "iphone-14",
+    "iphone-se-3",
+    "iphone-13-pro-max",
+    "iphone-13-pro",
+    "iphone-13",
+    "iphone-13-mini",
+    "iphone-12-pro-max",
+    "iphone-12-pro",
+    "iphone-12",
+    "iphone-12-mini",
+    "iphone-se-2"
+  ],
+  "sourceIds": [
+    "apple-ios26-compatible-models"
+  ],
+  "historicalCompatibility": {
+    "status": "not_asserted",
+    "reason": "Historical compatibility matrices are not inferred from model introduction dates. Add them only from preserved official Apple compatibility sources."
+  }
+}

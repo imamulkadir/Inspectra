@@ -1,0 +1,30 @@
+{
+  "locale": "en",
+  "version": "1.0.0",
+  "settingsTokens": {
+    "settings": "Settings",
+    "general": "General",
+    "about": "About",
+    "battery": "Battery",
+    "display_brightness": "Display & Brightness",
+    "privacy_security": "Privacy & Security",
+    "analytics_improvements": "Analytics & Improvements",
+    "analytics_data": "Analytics Data",
+    "vpn_device_management": "VPN & Device Management",
+    "face_id_passcode": "Face ID & Passcode",
+    "touch_id_passcode": "Touch ID & Passcode",
+    "software_update": "Software Update",
+    "transfer_reset": "Transfer or Reset iPhone",
+    "erase_all": "Erase All Content and Settings"
+  },
+  "statusLabels": {
+    "PASS": "Pass",
+    "FAIL": "Fail",
+    "WARNING": "Needs attention",
+    "UNKNOWN": "Unable to determine",
+    "NOT_TESTED": "Not tested",
+    "NOT_APPLICABLE": "Not applicable",
+    "UNAVAILABLE": "Unavailable"
+  },
+  "policy": "Visible settings labels must be localized by verified language/iOS records. This English file does not authorize inferred translations."
+}

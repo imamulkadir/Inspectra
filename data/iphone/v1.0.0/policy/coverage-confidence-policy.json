@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0-structure",
+  "coverageFormula": "(completed_applicable_weight / total_applicable_weight) * 100",
+  "weights": {
+    "critical": null,
+    "high": null,
+    "medium": null,
+    "low": null
+  },
+  "completedStatuses": [
+    "PASS",
+    "FAIL",
+    "WARNING"
+  ],
+  "excludedFromDenominatorStatuses": [
+    "NOT_APPLICABLE",
+    "UNAVAILABLE"
+  ],
+  "notCompletedStatuses": [
+    "NOT_TESTED",
+    "UNKNOWN"
+  ],
+  "confidenceInputs": [
+    "weighted inspection coverage",
+    "completion of critical checks",
+    "evidence provenance",
+    "number of self-reported-only findings",
+    "browser diagnostic completion",
+    "final reset verification",
+    "beta software status",
+    "unresolved identity inconsistencies"
+  ],
+  "confidenceThresholds": null,
+  "requiresCalibration": true,
+  "hardRules": [
+    {
+      "condition": "any applicable critical check is NOT_TESTED or UNKNOWN",
+      "effect": "confidence must not be HIGH"
+    },
+    {
+      "condition": "reset.final-verification-completed is no or unknown",
+      "effect": "confidence must not be HIGH and report must show a prominent warning"
+    }
+  ]
+}

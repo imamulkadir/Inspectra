@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f7f9;
+  --surface: #f5f5f7;
+  --surface-elevated: #ffffff;
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --border: #d2d2d7;
+  --accent: #0071e3;
+  --accent-pressed: #0062c4;
+  --success: #16883f;
+  --warning: #a15c00;
+  --danger: #c5221f;
+  --info: #2463eb;
+  --unknown: #6b7280;
+
+  --font-sans:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-logo: "Michroma", var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Reserve the scrollbar's width always, whether or not the current page
+     is tall enough to need one — otherwise navigating between a short page
+     (e.g. Saved with no inspections) and a tall one (e.g. Explore) toggles
+     the scrollbar on/off, and the whole page content visibly shifts left
+     or right by the scrollbar's width. scrollbar-gutter has no effect while
+     overflow-y is its default `visible`, even though the root element
+     scrolls anyway — it has to be set explicitly here too. */
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.tap-target {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Native <button> elements default to the arrow cursor in Chromium, unlike
+   <a href>, which already gets pointer for free — without this, every
+   custom button/control in the app (there is no <input type="submit">
+   anywhere) shows the wrong cursor on hover. */
+button:not(:disabled),
+a,
+[role="button"],
+select,
+summary {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+}

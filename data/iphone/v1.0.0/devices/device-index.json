@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "devices": [
+    {
+      "id": "iphone-17e",
+      "marketingName": "iPhone 17e",
+      "family": "iPhone 17",
+      "segment": "e",
+      "introducedYear": 2026,
+      "techSpecSourceId": "apple-tech-spec-iphone-17e"
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "marketingName": "iPhone 17 Pro Max",
+      "family": "iPhone 17",
+      "segment": "pro_max",
+      "introducedYear": 2025,
+      "techSpecSourceId": "apple-tech-spec-iphone-17-pro-max"
+    },
+    {
+      "id": "iphone-17-pro",
+      "marketingName": "iPhone 17 Pro",
+      "family": "iPhone 17",
+      "segment": "pro",
+      "introducedYear": 2025,
+      "techSpecSourceId": "apple-tech-spec-iphone-17-pro"
+    },
+    {
+      "id": "iphone-17",
+      "marketingName": "iPhone 17",
+      "family": "iPhone 17",
+      "segment": "base",
+      "introducedYear": 2025,
+      "techSpecSourceId": "apple-tech-spec-iphone-17"
+    },
+    {
+      "id": "iphone-air",
+      "marketingName": "iPhone Air",
+      "family": "iPhone Air",
+      "segment": "air",
+      "introducedYear": 2025,
+      "techSpecSourceId": "apple-tech-spec-iphone-air"
+    },
+    {
+      "id": "iphone-16e",
+      "marketingName": "iPhone 16e",
+      "family": "iPhone 16",
+      "segment": "e",
+      "introducedYear": 2025,
+      "techSpecSourceId": "apple-tech-spec-iphone-16e"
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "marketingName": "iPhone 16 Pro Max",
+      "family": "iPhone 16",
+      "segment": "pro_max",
+      "introducedYear": 2024,
+      "techSpecSourceId": "apple-tech-spec-iphone-16-pro-max"
+    },
+    {
+      "id": "iphone-16-pro",
+      "marketingName": "iPhone 16 Pro",
+      "family": "iPhone 16",
+      "segment": "pro",
+      "introducedYear": 2024,
+      "techSpecSourceId": "apple-tech-spec-iphone-16-pro"
+    },
+    {
+      "id": "iphone-16-plus",
+      "marketingName": "iPhone 16 Plus",
+      "family": "iPhone 16",
+      "segment": "plus",
+      "introducedYear": 2024,
+      "techSpecSourceId": "apple-tech-spec-iphone-16-plus"
+    },
+    {
+      "id": "iphone-16",
+      "marketingName": "iPhone 16",
+      "family": "iPhone 16",
+      "segment": "base",
+      "introducedYear": 2024,
+      "techSpecSourceId": "apple-tech-spec-iphone-16"
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "marketingName": "iPhone 15 Pro Max",
+      "family": "iPhone 15",
+      "segment": "pro_max",
+      "introducedYear": 2023,
+      "techSpecSourceId": "apple-tech-spec-iphone-15-pro-max"
+    },
+    {
+      "id": "iphone-15-pro",
+      "marketingName": "iPhone 15 Pro",
+      "family": "iPhone 15",
+      "segment": "pro",
+      "introducedYear": 2023,
+      "techSpecSourceId": "apple-tech-spec-iphone-15-pro"
+    },
+    {
+      "id": "iphone-15-plus",
+      "marketingName": "iPhone 15 Plus",
+      "family": "iPhone 15",
+      "segment": "plus",
+      "introducedYear": 2023,
+      "techSpecSourceId": "apple-tech-spec-iphone-15-plus"
+    },
+    {
+      "id": "iphone-15",
+      "marketingName": "iPhone 15",
+      "family": "iPhone 15",
+      "segment": "base",
+      "introducedYear": 2023,
+      "techSpecSourceId": "apple-tech-spec-iphone-15"
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "marketingName": "iPhone 14 Pro Max",
+      "family": "iPhone 14",
+      "segment": "pro_max",
+      "introducedYear": 2022,
+      "techSpecSourceId": "apple-tech-spec-iphone-14-pro-max"
+    },
+    {
+      "id": "iphone-14-pro",
+      "marketingName": "iPhone 14 Pro",
+      "family": "iPhone 14",
+      "segment": "pro",
+      "introducedYear": 2022,
+      "techSpecSourceId": "apple-tech-spec-iphone-14-pro"
+    },
+    {
+      "id": "iphone-14-plus",
+      "marketingName": "iPhone 14 Plus",
+      "family": "iPhone 14",
+      "segment": "plus",
+      "introducedYear": 2022,
+      "techSpecSourceId": "apple-tech-spec-iphone-14-plus"
+    },
+    {
+      "id": "iphone-14",
+      "marketingName": "iPhone 14",
+      "family": "iPhone 14",
+      "segment": "base",
+      "introducedYear": 2022,
+      "techSpecSourceId": "apple-tech-spec-iphone-14"
+    },
+    {
+      "id": "iphone-se-3",
+      "marketingName": "iPhone SE (3rd generation)",
+      "family": "iPhone SE",
+      "segment": "se",
+      "introducedYear": 2022,
+      "techSpecSourceId": "apple-tech-spec-iphone-se-3"
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "marketingName": "iPhone 13 Pro Max",
+      "family": "iPhone 13",
+      "segment": "pro_max",
+      "introducedYear": 2021,
+      "techSpecSourceId": "apple-tech-spec-iphone-13-pro-max"
+    },
+    {
+      "id": "iphone-13-pro",
+      "marketingName": "iPhone 13 Pro",
+      "family": "iPhone 13",
+      "segment": "pro",
+      "introducedYear": 2021,
+      "techSpecSourceId": "apple-tech-spec-iphone-13-pro"
+    },
+    {
+      "id": "iphone-13",
+      "marketingName": "iPhone 13",
+      "family": "iPhone 13",
+      "segment": "base",
+      "introducedYear": 2021,
+      "techSpecSourceId": "apple-tech-spec-iphone-13"
+    },
+    {
+      "id": "iphone-13-mini",
+      "marketingName": "iPhone 13 mini",
+      "family": "iPhone 13",
+      "segment": "mini",
+      "introducedYear": 2021,
+      "techSpecSourceId": "apple-tech-spec-iphone-13-mini"
+    },
+    {
+      "id": "iphone-12-pro-max",
+      "marketingName": "iPhone 12 Pro Max",
+      "family": "iPhone 12",
+      "segment": "pro_max",
+      "introducedYear": 2020,
+      "techSpecSourceId": "apple-tech-spec-iphone-12-pro-max"
+    },
+    {
+      "id": "iphone-12-pro",
+      "marketingName": "iPhone 12 Pro",
+      "family": "iPhone 12",
+      "segment": "pro",
+      "introducedYear": 2020,
+      "techSpecSourceId": "apple-tech-spec-iphone-12-pro"
+    },
+    {
+      "id": "iphone-12",
+      "marketingName": "iPhone 12",
+      "family": "iPhone 12",
+      "segment": "base",
+      "introducedYear": 2020,
+      "techSpecSourceId": "apple-tech-spec-iphone-12"
+    },
+    {
+      "id": "iphone-12-mini",
+      "marketingName": "iPhone 12 mini",
+      "family": "iPhone 12",
+      "segment": "mini",
+      "introducedYear": 2020,
+      "techSpecSourceId": "apple-tech-spec-iphone-12-mini"
+    },
+    {
+      "id": "iphone-se-2",
+      "marketingName": "iPhone SE (2nd generation)",
+      "family": "iPhone SE",
+      "segment": "se",
+      "introducedYear": 2020,
+      "techSpecSourceId": "apple-tech-spec-iphone-se-2"
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "version": "1.0.0",
+  "finishes": [
+    {
+      "id": "alpine-green",
+      "officialName": "Alpine Green",
+      "modelIds": [
+        "iphone-13-pro",
+        "iphone-13-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-tech-spec-iphone-13-pro-max"
+      ]
+    },
+    {
+      "id": "black",
+      "officialName": "Black",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-15",
+        "iphone-15-plus",
+        "iphone-16",
+        "iphone-16-plus",
+        "iphone-16e",
+        "iphone-17",
+        "iphone-17e",
+        "iphone-se-2"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-15",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-tech-spec-iphone-16",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-tech-spec-iphone-16e",
+        "apple-tech-spec-iphone-17",
+        "apple-tech-spec-iphone-17e",
+        "apple-tech-spec-iphone-se-2"
+      ]
+    },
+    {
+      "id": "black-titanium",
+      "officialName": "Black Titanium",
+      "modelIds": [
+        "iphone-15-pro",
+        "iphone-15-pro-max",
+        "iphone-16-pro",
+        "iphone-16-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-tech-spec-iphone-16-pro-max"
+      ]
+    },
+    {
+      "id": "blue",
+      "officialName": "Blue",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-15",
+        "iphone-15-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-tech-spec-iphone-15",
+        "apple-tech-spec-iphone-15-plus"
+      ]
+    },
+    {
+      "id": "blue-titanium",
+      "officialName": "Blue Titanium",
+      "modelIds": [
+        "iphone-15-pro",
+        "iphone-15-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-tech-spec-iphone-15-pro-max"
+      ]
+    },
+    {
+      "id": "cloud-white",
+      "officialName": "Cloud White",
+      "modelIds": [
+        "iphone-air"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air"
+      ]
+    },
+    {
+      "id": "cosmic-orange",
+      "officialName": "Cosmic Orange",
+      "modelIds": [
+        "iphone-17-pro",
+        "iphone-17-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-tech-spec-iphone-17-pro-max"
+      ]
+    },
+    {
+      "id": "deep-blue",
+      "officialName": "Deep Blue",
+      "modelIds": [
+        "iphone-17-pro",
+        "iphone-17-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-tech-spec-iphone-17-pro-max"
+      ]
+    },
+    {
+      "id": "deep-purple",
+      "officialName": "Deep Purple",
+      "modelIds": [
+        "iphone-14-pro",
+        "iphone-14-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-tech-spec-iphone-14-pro-max"
+      ]
+    },
+    {
+      "id": "desert-titanium",
+      "officialName": "Desert Titanium",
+      "modelIds": [
+        "iphone-16-pro",
+        "iphone-16-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-tech-spec-iphone-16-pro-max"
+      ]
+    },
+    {
+      "id": "gold",
+      "officialName": "Gold",
+      "modelIds": [
+        "iphone-12-pro",
+        "iphone-12-pro-max",
+        "iphone-13-pro",
+        "iphone-13-pro-max",
+        "iphone-14-pro",
+        "iphone-14-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-tech-spec-iphone-14-pro-max"
+      ]
+    },
+    {
+      "id": "graphite",
+      "officialName": "Graphite",
+      "modelIds": [
+        "iphone-12-pro",
+        "iphone-12-pro-max",
+        "iphone-13-pro",
+        "iphone-13-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-tech-spec-iphone-13-pro-max"
+      ]
+    },
+    {
+      "id": "green",
+      "officialName": "Green",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-15",
+        "iphone-15-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-15",
+        "apple-tech-spec-iphone-15-plus"
+      ]
+    },
+    {
+      "id": "lavender",
+      "officialName": "Lavender",
+      "modelIds": [
+        "iphone-17"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17"
+      ]
+    },
+    {
+      "id": "light-gold",
+      "officialName": "Light Gold",
+      "modelIds": [
+        "iphone-air"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air"
+      ]
+    },
+    {
+      "id": "midnight",
+      "officialName": "Midnight",
+      "modelIds": [
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-se-3"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-tech-spec-iphone-se-3"
+      ]
+    },
+    {
+      "id": "mist-blue",
+      "officialName": "Mist Blue",
+      "modelIds": [
+        "iphone-17"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17"
+      ]
+    },
+    {
+      "id": "natural-titanium",
+      "officialName": "Natural Titanium",
+      "modelIds": [
+        "iphone-15-pro",
+        "iphone-15-pro-max",
+        "iphone-16-pro",
+        "iphone-16-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-tech-spec-iphone-16-pro-max"
+      ]
+    },
+    {
+      "id": "pacific-blue",
+      "officialName": "Pacific Blue",
+      "modelIds": [
+        "iphone-12-pro",
+        "iphone-12-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-tech-spec-iphone-12-pro-max"
+      ]
+    },
+    {
+      "id": "pink",
+      "officialName": "Pink",
+      "modelIds": [
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-15",
+        "iphone-15-plus",
+        "iphone-16",
+        "iphone-16-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-15",
+        "apple-tech-spec-iphone-15-plus",
+        "apple-tech-spec-iphone-16",
+        "apple-tech-spec-iphone-16-plus"
+      ]
+    },
+    {
+      "id": "product-red",
+      "officialName": "(PRODUCT)RED",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-se-2",
+        "iphone-se-3"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-tech-spec-iphone-se-2",
+        "apple-tech-spec-iphone-se-3"
+      ]
+    },
+    {
+      "id": "purple",
+      "officialName": "Purple",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-14",
+        "iphone-14-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus"
+      ]
+    },
+    {
+      "id": "sage",
+      "officialName": "Sage",
+      "modelIds": [
+        "iphone-17"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17"
+      ]
+    },
+    {
+      "id": "sierra-blue",
+      "officialName": "Sierra Blue",
+      "modelIds": [
+        "iphone-13-pro",
+        "iphone-13-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-tech-spec-iphone-13-pro-max"
+      ]
+    },
+    {
+      "id": "silver",
+      "officialName": "Silver",
+      "modelIds": [
+        "iphone-12-pro",
+        "iphone-12-pro-max",
+        "iphone-13-pro",
+        "iphone-13-pro-max",
+        "iphone-14-pro",
+        "iphone-14-pro-max",
+        "iphone-17-pro",
+        "iphone-17-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12-pro",
+        "apple-tech-spec-iphone-12-pro-max",
+        "apple-tech-spec-iphone-13-pro",
+        "apple-tech-spec-iphone-13-pro-max",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-tech-spec-iphone-17-pro",
+        "apple-tech-spec-iphone-17-pro-max"
+      ]
+    },
+    {
+      "id": "sky-blue",
+      "officialName": "Sky Blue",
+      "modelIds": [
+        "iphone-air"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-air"
+      ]
+    },
+    {
+      "id": "soft-pink",
+      "officialName": "Soft Pink",
+      "modelIds": [
+        "iphone-17e"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-17e"
+      ]
+    },
+    {
+      "id": "space-black",
+      "officialName": "Space Black",
+      "modelIds": [
+        "iphone-14-pro",
+        "iphone-14-pro-max",
+        "iphone-air"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14-pro",
+        "apple-tech-spec-iphone-14-pro-max",
+        "apple-tech-spec-iphone-air"
+      ]
+    },
+    {
+      "id": "starlight",
+      "officialName": "Starlight",
+      "modelIds": [
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-se-3"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-13",
+        "apple-tech-spec-iphone-13-mini",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-tech-spec-iphone-se-3"
+      ]
+    },
+    {
+      "id": "teal",
+      "officialName": "Teal",
+      "modelIds": [
+        "iphone-16",
+        "iphone-16-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-tech-spec-iphone-16-plus"
+      ]
+    },
+    {
+      "id": "ultramarine",
+      "officialName": "Ultramarine",
+      "modelIds": [
+        "iphone-16",
+        "iphone-16-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-16",
+        "apple-tech-spec-iphone-16-plus"
+      ]
+    },
+    {
+      "id": "white",
+      "officialName": "White",
+      "modelIds": [
+        "iphone-12",
+        "iphone-12-mini",
+        "iphone-16",
+        "iphone-16-plus",
+        "iphone-16e",
+        "iphone-17",
+        "iphone-17e",
+        "iphone-se-2"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-12",
+        "apple-tech-spec-iphone-12-mini",
+        "apple-tech-spec-iphone-16",
+        "apple-tech-spec-iphone-16-plus",
+        "apple-tech-spec-iphone-16e",
+        "apple-tech-spec-iphone-17",
+        "apple-tech-spec-iphone-17e",
+        "apple-tech-spec-iphone-se-2"
+      ]
+    },
+    {
+      "id": "white-titanium",
+      "officialName": "White Titanium",
+      "modelIds": [
+        "iphone-15-pro",
+        "iphone-15-pro-max",
+        "iphone-16-pro",
+        "iphone-16-pro-max"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-15-pro",
+        "apple-tech-spec-iphone-15-pro-max",
+        "apple-tech-spec-iphone-16-pro",
+        "apple-tech-spec-iphone-16-pro-max"
+      ]
+    },
+    {
+      "id": "yellow",
+      "officialName": "Yellow",
+      "modelIds": [
+        "iphone-14",
+        "iphone-14-plus",
+        "iphone-15",
+        "iphone-15-plus"
+      ],
+      "uiColorHex": null,
+      "uiColorPolicy": "not_provided_by_apple_do_not_infer",
+      "sourceIds": [
+        "apple-identify-iphone-model",
+        "apple-tech-spec-iphone-14",
+        "apple-tech-spec-iphone-14-plus",
+        "apple-tech-spec-iphone-15",
+        "apple-tech-spec-iphone-15-plus"
+      ]
+    }
+  ]
+}

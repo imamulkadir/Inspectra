@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "records": [],
+  "status": "not_populated",
+  "requiresLiveOfficialSourceRefresh": true,
+  "policy": "Do not claim that no service program applies from an empty dataset. Populate only from current official Apple service-program pages with eligibility terms and verification dates."
+}

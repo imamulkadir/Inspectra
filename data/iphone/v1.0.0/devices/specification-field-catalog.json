@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "normalizedFields": [
+    "marketingName",
+    "family",
+    "segment",
+    "introducedYear",
+    "storageGB",
+    "officialFinishNames",
+    "dimensionsMm",
+    "weightGrams",
+    "construction",
+    "display",
+    "chip",
+    "rearCamera",
+    "frontCamera",
+    "batteryReference",
+    "biometrics",
+    "controls",
+    "connector",
+    "charging",
+    "waterResistance",
+    "capabilities",
+    "physicalIdentification",
+    "regional A-number market groups",
+    "physical SIM-tray presence"
+  ],
+  "sourceLinkedButNotFullyNormalized": [
+    "complete cellular band lists by A-number",
+    "complete photo feature lists",
+    "complete video recording formats and frame rates",
+    "satellite feature availability by country",
+    "complete audio/video playback formats",
+    "accessibility feature lists",
+    "built-in app lists",
+    "language and keyboard lists",
+    "environmental requirements",
+    "mail attachment formats",
+    "carrier-specific features",
+    "country-specific regulatory and service availability"
+  ],
+  "reason": "Only inspection-relevant facts that were normalized consistently across the full supported model range are represented as structured values. Other details remain available through each device’s official Apple technical-specification source and must not be inferred."
+}

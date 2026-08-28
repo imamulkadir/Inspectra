@@ -1,0 +1,86 @@
+{
+  "verifiedAt": "2026-08-27",
+  "minimumIOS": "15.2",
+  "navigationId": "parts.history",
+  "displayCondition": "The section appears when Apple has relevant repair information to show; absence is not proof of no repair.",
+  "statusDefinitions": [
+    {
+      "id": "genuine",
+      "appleLabel": "Genuine",
+      "meaning": "Apple identifies the part as a genuine Apple part installed using Apple processes."
+    },
+    {
+      "id": "used",
+      "appleLabel": "Used",
+      "meaning": "Apple identifies a genuine Apple part that was previously used in another iPhone."
+    },
+    {
+      "id": "unknown",
+      "appleLabel": "Unknown",
+      "meaning": "Apple cannot verify the part or reports one of the conditions described in its support documentation."
+    },
+    {
+      "id": "unverified",
+      "appleLabel": "Unverified",
+      "meaning": "Apple reports that the part has not been verified or linked to the iPhone after repair."
+    },
+    {
+      "id": "finish_repair",
+      "appleLabel": "Finish Repair",
+      "meaning": "Apple indicates additional Repair Assistant steps are needed to finish calibration/configuration."
+    }
+  ],
+  "modelCoverage": [
+    {
+      "deviceIds": [
+        "iphone-17e",
+        "iphone-17-pro-max",
+        "iphone-17-pro",
+        "iphone-17",
+        "iphone-air",
+        "iphone-16e",
+        "iphone-16-pro-max",
+        "iphone-16-pro",
+        "iphone-16-plus",
+        "iphone-16",
+        "iphone-15-pro-max",
+        "iphone-15-pro",
+        "iphone-15-plus",
+        "iphone-15",
+        "iphone-14-pro-max",
+        "iphone-14-pro",
+        "iphone-14-plus",
+        "iphone-14",
+        "iphone-13-pro-max",
+        "iphone-13-pro",
+        "iphone-13",
+        "iphone-13-mini",
+        "iphone-12-pro-max",
+        "iphone-12-pro",
+        "iphone-12",
+        "iphone-12-mini"
+      ],
+      "parts": [
+        "battery",
+        "display",
+        "logic_board",
+        "front_camera",
+        "rear_cameras"
+      ],
+      "qualification": "Subject to Apple’s documented model/iOS support and whether a relevant repair entry exists."
+    },
+    {
+      "deviceIds": [
+        "iphone-se-3",
+        "iphone-se-2"
+      ],
+      "parts": [
+        "battery"
+      ],
+      "qualification": "Subject to Apple’s documented model/iOS support and whether a relevant repair entry exists."
+    }
+  ],
+  "sourceIds": [
+    "apple-parts-service-history"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-draft-structure",
+  "status": "requires_calibration_before_use",
+  "principles": [
+    "Condition score, risk level, inspection coverage, and result confidence are separate outputs.",
+    "NOT_TESTED, UNKNOWN, UNAVAILABLE, and NOT_APPLICABLE must never be silently treated as PASS.",
+    "A critical risk flag can override presentation of a high condition score.",
+    "All numeric weights and thresholds require product, repair-expert, legal, and user-testing calibration."
+  ],
+  "categoryWeights": {
+    "identity": null,
+    "regional_variant": null,
+    "ownership_security": null,
+    "parts_repair": null,
+    "battery": null,
+    "display": null,
+    "camera": null,
+    "biometrics_sensors": null,
+    "audio_microphones": null,
+    "controls_haptics": null,
+    "charging_ports": null,
+    "cellular_wireless": null,
+    "physical_condition": null,
+    "liquid_exposure": null,
+    "software_health": null,
+    "seller_transaction": null,
+    "reset_activation": null
+  },
+  "ruleWeights": null,
+  "thresholds": {
+    "conditionBands": null,
+    "batteryMaximumCapacityBands": null,
+    "cycleCountBands": null,
+    "cosmeticDamageBands": null,
+    "confidenceBands": null
+  },
+  "requiresCalibration": true,
+  "noDefaultScorePolicy": "Until weights and thresholds are approved, implementations may show findings and coverage but must not produce a numeric condition score."
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "majorVersionsRepresented": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    26
+  ],
+  "releases": [
+    {
+      "major": 13,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 14,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 15,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 16,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 17,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 18,
+      "status": "historical",
+      "latestMinorInDataset": null,
+      "sourceIds": []
+    },
+    {
+      "major": 26,
+      "status": "current_stable_family_as_of_verification_date",
+      "latestMinorInDataset": "26.6.1",
+      "latestMinorReleaseDate": "2026-08-17",
+      "sourceIds": [
+        "apple-ios-26-6-1-security",
+        "apple-ios26-compatible-models"
+      ]
+    }
+  ],
+  "policy": "Only a currently verified exact release is asserted. Historical exact minor versions are intentionally not reconstructed."
+}

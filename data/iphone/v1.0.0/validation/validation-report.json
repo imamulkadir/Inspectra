@@ -1,0 +1,49 @@
+{
+  "datasetVersion": "1.0.0",
+  "validatedAt": "2026-08-27T03:24:13Z",
+  "status": "PASS",
+  "counts": {
+    "sources": 48,
+    "devices": 28,
+    "regionalVariants": 119,
+    "officialFinishes": 34,
+    "capabilityDefinitions": 25,
+    "settingsPaths": 21,
+    "inspectionCategories": 17,
+    "inspectionRules": 343,
+    "followUpRules": 15,
+    "browserDiagnostics": 6
+  },
+  "checks": {
+    "deviceCountExpected28": true,
+    "uniqueDeviceIds": true,
+    "uniqueANumbers": true,
+    "allDevicesHaveOfficialTechSpecSource": true,
+    "allDevicesHaveRegionalVariant": true,
+    "ios26CompatibilityCoversCatalog": true,
+    "allRuleWeightsNull": true,
+    "noFiniteNumberErrors": true,
+    "allJsonFilesParse": true,
+    "uniqueIdsAcrossPrimaryCollections": true,
+    "referentialIntegrity": true,
+    "manifestFileCoverage": true,
+    "jsonSchemaValidation559Records": true,
+    "zipIntegrity": true
+  },
+  "errors": [],
+  "warnings": [
+    "Finish swatch hex values are null because Apple does not publish canonical CSS colors for physical finishes.",
+    "Cellular bands are source-linked but not normalized by variant in this version.",
+    "eSIM support and physical-SIM slot count are not inferred from tray presence.",
+    "Historical iOS minor releases and historical settings paths are not reconstructed without official versioned sources.",
+    "Numeric scoring weights, market-value thresholds, battery-health buying thresholds, and confidence bands require calibration and are null.",
+    "Service-program records are intentionally empty and must not be interpreted as no applicable program."
+  ],
+  "independentQa": {
+    "jsonFilesParsed": 32,
+    "schemaRecordsValidated": 559,
+    "referenceErrors": 0,
+    "schemaErrors": 0,
+    "zipErrors": 0
+  }
+}

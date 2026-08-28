@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "device.schema.json",
+  "type": "object",
+  "required": [
+    "id",
+    "marketingName",
+    "introducedYear",
+    "storageGB",
+    "officialFinishNames",
+    "dimensionsMm",
+    "weightGrams",
+    "display",
+    "chip",
+    "sourceIds"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^iphone-"
+    },
+    "marketingName": {
+      "type": "string"
+    },
+    "introducedYear": {
+      "type": "integer",
+      "minimum": 2020
+    },
+    "storageGB": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "integer"
+      }
+    },
+    "officialFinishNames": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "weightGrams": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

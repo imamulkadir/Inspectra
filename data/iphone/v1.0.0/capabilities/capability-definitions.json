@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "id": "faceId",
+      "description": "Face ID biometric authentication is part of the model specification.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "touchId",
+      "description": "Touch ID biometric authentication is part of the model specification.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "dynamicIsland",
+      "description": "The display includes Dynamic Island.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "proMotion",
+      "description": "The display includes ProMotion with adaptive refresh rate up to 120Hz.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "alwaysOnDisplay",
+      "description": "The model includes an Always-On display.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "actionButton",
+      "description": "The model includes an Action button.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "cameraControl",
+      "description": "The model includes Camera Control.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "ringSilentSwitch",
+      "description": "The model includes a Ring/Silent switch.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "homeButton",
+      "description": "The model includes a physical solid-state Home button.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "liDAR",
+      "description": "The rear camera system includes a LiDAR Scanner.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "macroPhotography",
+      "description": "Apple lists macro photography for the model.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "physicalTelephotoCamera",
+      "description": "The device has a separate physical telephoto camera.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "opticalQuality2xCrop",
+      "description": "Apple lists an optical-quality 2x option produced from the main camera sensor.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "frontCameraAutofocus",
+      "description": "The front camera specification includes autofocus.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "centerStageFrontCamera",
+      "description": "The model includes the 18MP Center Stage front camera.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "usbC",
+      "description": "The device uses a USB-C connector.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "lightning",
+      "description": "The device uses a Lightning connector.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "usb3Data",
+      "description": "The USB-C connector supports USB 3 data rates in the normalized record.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "magSafe",
+      "description": "The model supports MagSafe wireless charging.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "qi2",
+      "description": "The model specification lists Qi2 wireless charging.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "wirelessCharging",
+      "description": "The model supports a listed wireless charging standard.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "appleIntelligence",
+      "description": "Apple lists Apple Intelligence support in the model technical specification.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "partsHistoryFull",
+      "description": "Apple Parts and Service History can report battery, display, logic board, front camera, and rear cameras for this model family, subject to iOS requirements and actual repair history.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "partsHistoryBatteryOnly",
+      "description": "Apple Parts and Service History reports battery information for this model family, subject to iOS requirements and actual repair history.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    },
+    {
+      "id": "batteryCycleCountInSettings",
+      "description": "On iPhone 15 models and later, Apple documents cycle count, manufacture date, and first-use date in Battery Health, subject to supported iOS.",
+      "type": "boolean",
+      "sourceBasis": "normalized_official_specification_or_official_support_matrix"
+    }
+  ]
+}

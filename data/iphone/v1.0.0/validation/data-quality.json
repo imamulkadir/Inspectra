@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "principles": [
+    "official-source provenance",
+    "no inferred country from shared A-number",
+    "null instead of guessed values",
+    "separate fact/observation/inference",
+    "no uncalibrated numeric score"
+  ],
+  "knownIntentionalGaps": [
+    "Finish swatch hex values are null because Apple does not publish canonical CSS colors for physical finishes.",
+    "Cellular bands are source-linked but not normalized by variant in this version.",
+    "eSIM support and physical-SIM slot count are not inferred from tray presence.",
+    "Historical iOS minor releases and historical settings paths are not reconstructed without official versioned sources.",
+    "Numeric scoring weights, market-value thresholds, battery-health buying thresholds, and confidence bands require calibration and are null.",
+    "Service-program records are intentionally empty and must not be interpreted as no applicable program."
+  ],
+  "releaseBlockingErrors": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "inspectra",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Know what you're buying — guided used-iPhone inspection PWA.",
+  "scripts": {
+    "dev": "node scripts/resolve-dataset-version.mjs && vite",
+    "build": "npm run validate:data && vite build && node scripts/copy-data.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "validate:data": "node scripts/resolve-dataset-version.mjs && node scripts/validate-datasets.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.62.1",
+    "eslint": "^10.9.1",
+    "fake-indexeddb": "^6.2.5",
+    "globals": "^17.11.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.6",
+    "vitest": "^4.1.11"
+  }
+}

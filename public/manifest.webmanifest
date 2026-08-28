@@ -1,0 +1,19 @@
+{
+  "name": "Inspectra",
+  "short_name": "Inspectra",
+  "description": "Know what you're buying with guided used-iPhone inspection.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "requiredLabels": {
+    "score": "Analytical condition score",
+    "risk": "Risk level",
+    "coverage": "Inspection coverage",
+    "confidence": "Result confidence",
+    "persistentQualifier": "Analytical assessment; not a guarantee"
+  },
+  "prohibitedAbsolutePhrases": [
+    "Device is authentic",
+    "Never repaired",
+    "No water damage",
+    "Not stolen",
+    "Safe to buy",
+    "Guaranteed clean",
+    "Guaranteed original",
+    "This phone will not fail"
+  ],
+  "preferredReplacements": [
+    {
+      "insteadOf": "Device is authentic",
+      "use": "No identity inconsistency was detected in the completed checks."
+    },
+    {
+      "insteadOf": "Never repaired",
+      "use": "No repair indication was reported or identified through the completed checks."
+    },
+    {
+      "insteadOf": "No water damage",
+      "use": "No visible liquid-exposure indication was identified during the completed checks."
+    },
+    {
+      "insteadOf": "Safe to buy",
+      "use": "No critical issue was identified in the completed checks."
+    }
+  ],
+  "findingProvenanceLabels": [
+    "OFFICIAL_FACT",
+    "USER_OBSERVATION",
+    "BROWSER_OBSERVATION",
+    "EXTERNAL_VERIFICATION",
+    "ANALYTICAL_INFERENCE"
+  ]
+}

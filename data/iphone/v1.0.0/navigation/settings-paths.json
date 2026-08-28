@@ -1,0 +1,439 @@
+{
+  "version": "1.0.0",
+  "paths": [
+    {
+      "id": "device.about",
+      "concept": "About / identity information",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "About"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "fallback": "Use Settings search for “About”.",
+      "sourceIds": [
+        "apple-device-information",
+        "apple-ios26-compatible-models"
+      ]
+    },
+    {
+      "id": "device.model-number",
+      "concept": "Reveal A-number from part number",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "About",
+            "Model Number",
+            "Tap the displayed part number"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-find-model-number",
+        "apple-device-information"
+      ]
+    },
+    {
+      "id": "device.storage",
+      "concept": "Storage capacity and available storage",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "iPhone Storage"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-device-information"
+      ]
+    },
+    {
+      "id": "ios.software-update",
+      "concept": "Software update",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "Software Update"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-ios26-compatible-models"
+      ]
+    },
+    {
+      "id": "battery.usage",
+      "concept": "Battery usage",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Battery"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-battery-health",
+        "apple-device-information"
+      ]
+    },
+    {
+      "id": "battery.health",
+      "concept": "Battery health",
+      "routes": [
+        {
+          "iosMin": "17.4",
+          "iosMax": null,
+          "deviceRequirement": {
+            "introducedFamilyAtLeast": "iPhone 15"
+          },
+          "steps": [
+            "Settings",
+            "Battery",
+            "Battery Health"
+          ],
+          "verificationScope": "official_model_and_version_specific"
+        },
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "deviceRequirement": {
+            "deviceFamilies": [
+              "iPhone 11",
+              "iPhone 12",
+              "iPhone 13",
+              "iPhone 14"
+            ]
+          },
+          "steps": [
+            "Settings",
+            "Battery",
+            "Battery Health & Charging"
+          ],
+          "verificationScope": "official_model_specific_current"
+        }
+      ],
+      "fallback": "Open Settings > Battery and use the visible Battery Health entry. Do not assume a missing label is a failed battery test.",
+      "sourceIds": [
+        "apple-battery-health",
+        "apple-battery-cycle-design"
+      ]
+    },
+    {
+      "id": "parts.history",
+      "concept": "Parts and Service History",
+      "routes": [
+        {
+          "iosMin": "15.2",
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "About",
+            "Parts and Service History"
+          ],
+          "verificationScope": "official_version_specific"
+        }
+      ],
+      "absenceNote": "The section appears when relevant repair information exists. Its absence is not encoded as proof that the phone has never been repaired.",
+      "sourceIds": [
+        "apple-parts-service-history",
+        "apple-preowned-iphone-guide"
+      ]
+    },
+    {
+      "id": "carrier.lock",
+      "concept": "Carrier Lock",
+      "routes": [
+        {
+          "iosMin": "14.0",
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "About",
+            "Carrier Lock"
+          ],
+          "verificationScope": "official_version_specific"
+        }
+      ],
+      "expectedOfficialLabel": "No SIM restrictions",
+      "sourceIds": [
+        "apple-carrier-lock",
+        "apple-preowned-iphone-guide"
+      ]
+    },
+    {
+      "id": "management.profiles",
+      "concept": "Configuration profiles and MDM",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "VPN & Device Management"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-configuration-profiles",
+        "apple-supervised-device"
+      ]
+    },
+    {
+      "id": "management.supervision",
+      "concept": "Supervision message",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Top of main Settings page"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-supervised-device"
+      ]
+    },
+    {
+      "id": "device.erase",
+      "concept": "Erase all content and settings",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "Transfer or Reset iPhone",
+            "Erase All Content and Settings"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-erase-iphone"
+      ]
+    },
+    {
+      "id": "analytics.data",
+      "concept": "Analytics data",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Privacy & Security",
+            "Analytics & Improvements",
+            "Analytics Data"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "fallback": "Use Settings search for “Analytics”.",
+      "sourceIds": [
+        "apple-analytics-data",
+        "apple-device-information"
+      ]
+    },
+    {
+      "id": "display.settings",
+      "concept": "Display settings",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Display & Brightness"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-preowned-iphone-guide"
+      ]
+    },
+    {
+      "id": "face-id.settings",
+      "concept": "Face ID settings",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Face ID & Passcode"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-preowned-iphone-guide"
+      ]
+    },
+    {
+      "id": "touch-id.settings",
+      "concept": "Touch ID settings",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Touch ID & Passcode"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-preowned-iphone-guide"
+      ]
+    },
+    {
+      "id": "coverage.settings",
+      "concept": "AppleCare and warranty coverage",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "General",
+            "AppleCare & Warranty"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-check-coverage"
+      ]
+    },
+    {
+      "id": "find-my.iphone",
+      "concept": "Find My iPhone",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "[Apple Account name]",
+            "Find My",
+            "Find My iPhone"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-find-my-off"
+      ]
+    },
+    {
+      "id": "action-button.settings",
+      "concept": "Action Button settings",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Action Button"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-action-button"
+      ]
+    },
+    {
+      "id": "camera-control.operation",
+      "concept": "Camera Control operation",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Press Camera Control to open Camera",
+            "Press again for photo or press and hold for video"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-camera-control"
+      ]
+    },
+    {
+      "id": "display.auto-brightness",
+      "concept": "Auto-Brightness",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Accessibility",
+            "Display & Text Size",
+            "Auto-Brightness"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-display-brightness"
+      ]
+    },
+    {
+      "id": "display.always-on",
+      "concept": "Always On Display",
+      "routes": [
+        {
+          "iosMin": null,
+          "iosMax": null,
+          "steps": [
+            "Settings",
+            "Display & Brightness",
+            "Always On Display"
+          ],
+          "verificationScope": "official_current"
+        }
+      ],
+      "sourceIds": [
+        "apple-display-brightness"
+      ]
+    }
+  ]
+}

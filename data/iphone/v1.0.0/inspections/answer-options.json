@@ -1,0 +1,293 @@
+{
+  "version": "1.0.0",
+  "answerSets": [
+    {
+      "id": "pass_fail_unknown",
+      "options": [
+        {
+          "id": "pass",
+          "label": "Pass",
+          "status": "PASS"
+        },
+        {
+          "id": "fail",
+          "label": "Fail",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not tested",
+          "status": "NOT_TESTED"
+        },
+        {
+          "id": "unknown",
+          "label": "Can't determine",
+          "status": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "id": "yes_no_unknown",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes",
+          "status": "PASS"
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not tested",
+          "status": "NOT_TESTED"
+        },
+        {
+          "id": "unknown",
+          "label": "Can't determine",
+          "status": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "id": "match_mismatch_unknown",
+      "options": [
+        {
+          "id": "match",
+          "label": "Matches",
+          "status": "PASS"
+        },
+        {
+          "id": "mismatch",
+          "label": "Does not match",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_available",
+          "label": "Not available",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not tested",
+          "status": "NOT_TESTED"
+        },
+        {
+          "id": "unknown",
+          "label": "Can't determine",
+          "status": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "id": "working_partial_failed_unknown",
+      "options": [
+        {
+          "id": "working",
+          "label": "Working normally",
+          "status": "PASS"
+        },
+        {
+          "id": "partial",
+          "label": "Works with an issue",
+          "status": "WARNING"
+        },
+        {
+          "id": "failed",
+          "label": "Not working",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not tested",
+          "status": "NOT_TESTED"
+        },
+        {
+          "id": "unknown",
+          "label": "Can't determine",
+          "status": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "id": "present_absent_unknown",
+      "options": [
+        {
+          "id": "present",
+          "label": "Present",
+          "status": "PASS"
+        },
+        {
+          "id": "absent",
+          "label": "Absent",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_applicable",
+          "label": "Not applicable",
+          "status": "NOT_APPLICABLE"
+        },
+        {
+          "id": "unknown",
+          "label": "Can't determine",
+          "status": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "id": "condition_scale",
+      "options": [
+        {
+          "id": "excellent",
+          "label": "No visible issue",
+          "status": "PASS"
+        },
+        {
+          "id": "minor",
+          "label": "Minor wear",
+          "status": "WARNING"
+        },
+        {
+          "id": "moderate",
+          "label": "Moderate damage or wear",
+          "status": "WARNING"
+        },
+        {
+          "id": "severe",
+          "label": "Severe damage",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not inspected",
+          "status": "NOT_TESTED"
+        }
+      ]
+    },
+    {
+      "id": "parts_status",
+      "options": [
+        {
+          "id": "not_listed",
+          "label": "No part entry shown",
+          "status": "UNKNOWN"
+        },
+        {
+          "id": "genuine",
+          "label": "Genuine",
+          "status": "PASS"
+        },
+        {
+          "id": "used",
+          "label": "Used",
+          "status": "WARNING"
+        },
+        {
+          "id": "unknown",
+          "label": "Unknown",
+          "status": "WARNING"
+        },
+        {
+          "id": "unverified",
+          "label": "Unverified",
+          "status": "WARNING"
+        },
+        {
+          "id": "finish_repair",
+          "label": "Finish Repair",
+          "status": "WARNING"
+        },
+        {
+          "id": "not_available",
+          "label": "Section unavailable for this model/iOS",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "id": "not_tested",
+          "label": "Not checked",
+          "status": "NOT_TESTED"
+        }
+      ],
+      "sourceIds": [
+        "apple-parts-service-history"
+      ]
+    },
+    {
+      "id": "lci_status",
+      "options": [
+        {
+          "id": "white_or_silver",
+          "label": "White or silver",
+          "status": "PASS"
+        },
+        {
+          "id": "red",
+          "label": "Fully red",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_visible_for_variant",
+          "label": "No externally visible LCI for this variant",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "id": "not_checked",
+          "label": "Not checked",
+          "status": "NOT_TESTED"
+        },
+        {
+          "id": "unclear",
+          "label": "Unclear",
+          "status": "UNKNOWN"
+        }
+      ],
+      "sourceIds": [
+        "apple-liquid-contact-indicator"
+      ]
+    },
+    {
+      "id": "apple_coverage_result",
+      "options": [
+        {
+          "id": "recognized",
+          "label": "Apple recognized the entered serial number",
+          "status": "PASS"
+        },
+        {
+          "id": "not_recognized",
+          "label": "Apple did not recognize the entered serial number",
+          "status": "FAIL"
+        },
+        {
+          "id": "not_checked",
+          "label": "Could not verify / not checked",
+          "status": "NOT_TESTED"
+        }
+      ],
+      "sourceIds": [
+        "apple-check-coverage"
+      ]
+    },
+    {
+      "id": "numeric_observation",
+      "inputType": "number",
+      "statusPolicy": "No automatic pass/fail threshold unless a separate verified rule explicitly defines one."
+    },
+    {
+      "id": "text_observation",
+      "inputType": "text",
+      "statusPolicy": "Observation only; no automatic conclusion."
+    }
+  ],
+  "statuses": [
+    "PASS",
+    "FAIL",
+    "WARNING",
+    "UNKNOWN",
+    "NOT_TESTED",
+    "NOT_APPLICABLE",
+    "UNAVAILABLE"
+  ]
+}

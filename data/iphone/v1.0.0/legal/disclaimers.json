@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-draft",
+  "requiresQualifiedLegalReview": true,
+  "preInspectionAcknowledgement": "This tool provides informational and analytical assistance only. Results depend on the information entered, the tests completed, manufacturer specifications, and available technical data. It cannot guarantee authenticity, ownership, remaining lifespan, repair history, liquid exposure, water resistance, future performance, market value, or suitability for purchase.",
+  "persistentLabel": "Analytical assessment; not a guarantee",
+  "reportDisclaimer": "This assessment is informational only and is not a guarantee, professional device inspection, ownership verification, valuation, warranty, or purchase recommendation. The user remains responsible for the transaction and purchasing decision.",
+  "privacyNoticeDraft": "Process inspection data locally where practical. Do not publish full device identifiers, receipts, seller personal information, photos, or screenshots without a lawful purpose and explicit user action.",
+  "scopeLimitations": [
+    "No automated IMEI blacklist, financing, or lost/stolen lookup is included.",
+    "No visual or software check can prove that a device has never been repaired or exposed to liquid.",
+    "No completed checklist can guarantee future performance.",
+    "Third-party carrier, account, network, and marketplace conditions can affect observations.",
+    "Apple specifications and settings paths can change and require periodic reverification."
+  ]
+}
