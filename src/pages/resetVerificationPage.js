@@ -90,9 +90,17 @@ export async function mountPage(root, { params }) {
     const control = answerControl({
       answerSet,
       selection,
-      onSelect: (optionId) => handleAnswer(rule, answerSet, { optionId }),
-      onValueChange: (value) => handleAnswer(rule, answerSet, { value }),
-      onUnableToVerify: (unableToVerify) => handleAnswer(rule, answerSet, { unableToVerify }),
+      onSelect: (optionId) => { handleAnswer(rule, answerSet, { optionId }); render(); },
+      onValueChange: (value) => {
+        // A full render() here (like the option/checkbox branches use) would
+        // recreate this exact <input> from scratch on every keystroke,
+        // destroying its focus after each character typed. Refresh only the
+        // action bar instead, and debounce the actual save so it "checks"
+        // once typing pauses rather than writing to IndexedDB every keystroke.
+        handleAnswer(rule, answerSet, { value }, { debounceSave: true });
+        renderQuestionActionBar(ruleId);
+      },
+      onUnableToVerify: (unableToVerify) => { handleAnswer(rule, answerSet, { unableToVerify }); render(); },
     });
 
     body.appendChild(questionCard({ rule, category: catalog.categoryById.get(rule.categoryId), expectedValue, answerControlNode: control, sources: [] }));
@@ -102,24 +110,44 @@ export async function mountPage(root, { params }) {
       body.insertBefore(stopBanner(stopConditions[0]), body.firstChild);
     }
 
-    const advance = () => { currentIndex += 1; render(); };
-    bindEnter(() => Boolean(record.answers[ruleId]), advance);
+    renderQuestionActionBar(ruleId);
+  }
 
+  // Flushes (rather than discards) a pending debounced save before leaving
+  // the question: record already has the latest typed value in memory, but
+  // without this a fast Continue/Previous tap right after typing could
+  // navigate away before the 500ms debounce ever writes it to IndexedDB.
+  function flushPendingSave() {
+    if (!saveDebounce) return;
+    clearTimeout(saveDebounce);
+    saveDebounce = null;
+    persist();
+  }
+
+  function renderQuestionActionBar(ruleId) {
+    const advance = () => { flushPendingSave(); currentIndex += 1; render(); };
+    bindEnter(() => Boolean(record.answers[ruleId]), advance);
     renderActionBar([
-      currentIndex > 0 ? button({ label: "Previous", variant: "secondary", full: false, onClick: () => { currentIndex -= 1; render(); } }) : null,
+      currentIndex > 0 ? button({ label: "Previous", variant: "secondary", full: false, onClick: () => { flushPendingSave(); currentIndex -= 1; render(); } }) : null,
       button({ label: "Continue", disabled: !record.answers[ruleId], onClick: advance }),
     ].filter(Boolean));
   }
 
-  function handleAnswer(rule, answerSet, partial) {
+  let saveDebounce = null;
+
+  function handleAnswer(rule, answerSet, partial, { debounceSave = false } = {}) {
     const interpretation = interpretAnswer(rule, answerSet, partial);
     record.answers[rule.id] = { ...partial, ...interpretation, provenance: PROVENANCE.USER_OBSERVATION, recordedAt: nowIso() };
-    persist();
+
+    clearTimeout(saveDebounce);
+    if (debounceSave) {
+      saveDebounce = setTimeout(persist, 500);
+    } else {
+      persist();
+    }
 
     const stopConditions = evaluateOfficialStopConditions(catalog.riskPolicy, record.answers);
     if (stopConditions.length) announce(stopConditions[0].message, { assertive: true });
-
-    render();
   }
 
   function renderConsentGate() {
@@ -164,5 +192,8 @@ export async function mountPage(root, { params }) {
   }
 
   render();
-  return () => unbindEnter?.();
+  return () => {
+    unbindEnter?.();
+    flushPendingSave();
+  };
 }

@@ -105,9 +105,18 @@ export async function mountPage(root, { params }) {
     const control = answerControl({
       answerSet,
       selection,
-      onSelect: (optionId) => handleAnswer(rule, answerSet, { optionId }),
-      onValueChange: (value) => handleAnswer(rule, answerSet, { value }),
-      onUnableToVerify: (unableToVerify) => handleAnswer(rule, answerSet, { unableToVerify, value: selection.value }),
+      onSelect: (optionId) => { handleAnswer(rule, answerSet, { optionId }); render(); },
+      onValueChange: (value) => {
+        // A full render() here (like the option/checkbox branches use) would
+        // recreate this exact <input> from scratch on every keystroke,
+        // destroying its focus after each character typed. Refresh only the
+        // action bar instead — enough to reflect the now-answered state —
+        // and debounce the actual save so it "checks" once typing pauses
+        // rather than writing to IndexedDB on every keystroke.
+        handleAnswer(rule, answerSet, { value }, { debounceSave: true });
+        renderActionBar(false, sequence, currentIndex);
+      },
+      onUnableToVerify: (unableToVerify) => { handleAnswer(rule, answerSet, { unableToVerify, value: selection.value }); render(); },
     });
 
     body.appendChild(
@@ -147,7 +156,9 @@ export async function mountPage(root, { params }) {
     });
   }
 
-  function handleAnswer(rule, answerSet, partialSelection) {
+  let saveDebounce = null;
+
+  function handleAnswer(rule, answerSet, partialSelection, { debounceSave = false } = {}) {
     const interpretation = interpretAnswer(rule, answerSet, partialSelection);
     const provenance = rule.method === "browser_assisted" ? PROVENANCE.BROWSER_OBSERVATION : PROVENANCE.USER_OBSERVATION;
 
@@ -188,17 +199,27 @@ export async function mountPage(root, { params }) {
     const stopConditions = evaluateOfficialStopConditions(catalog.riskPolicy, record.answers);
     record.officialStopConditions = stopConditions;
 
-    persist();
+    clearTimeout(saveDebounce);
+    if (debounceSave) {
+      saveDebounce = setTimeout(persist, 500);
+    } else {
+      persist();
+    }
 
     if (stopConditions.length) {
       announce(stopConditions[0].message, { assertive: true });
     }
-
-    render();
   }
 
   function goTo(sequence, index) {
     if (index < 0 || index >= sequence.length) return;
+    // A debounced save from the just-left question would otherwise still
+    // fire ~500ms later, popping its "Saved" toast while a different
+    // question is already on screen. The record already has the latest
+    // typed value in memory regardless, and persistPosition() below writes
+    // that current state immediately, so nothing typed is lost by skipping
+    // the now-superfluous pending save.
+    clearTimeout(saveDebounce);
     record.currentRuleId = sequence[index];
     // Persist the new position immediately (section 22.2). Without this,
     // reloading or navigating away right after "Continue" — before
@@ -261,5 +282,16 @@ export async function mountPage(root, { params }) {
   }
 
   render();
-  return () => unbindEnter?.();
+  return () => {
+    unbindEnter?.();
+    // Flush rather than discard: navigating away (e.g. the header's own
+    // Back button, which doesn't go through goTo()/persistPosition()) can
+    // happen inside the debounce window, and record already has the
+    // just-typed value in memory — losing that would be a real answer
+    // silently not saved, not just a redundant toast.
+    if (saveDebounce) {
+      clearTimeout(saveDebounce);
+      persist();
+    }
+  };
 }
